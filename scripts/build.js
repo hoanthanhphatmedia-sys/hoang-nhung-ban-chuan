@@ -46,6 +46,19 @@ function zaloHref() {
   return site.contact.zalo || `https://zalo.me/${site.contact.phone}`;
 }
 
+function contactFormProvider() {
+  return String(site.contactPage?.formProvider || "netlify").toLowerCase();
+}
+
+function web3FormsAccessKey() {
+  return String(site.contactPage?.web3formsAccessKey || "");
+}
+
+function usesWeb3Forms() {
+  const key = web3FormsAccessKey();
+  return contactFormProvider() === "web3forms" && key && !key.includes("DAN_ACCESS_KEY");
+}
+
 function header(active, prefix = "") {
   const nav = [
     ["about", "Giới thiệu", "about.html"],
@@ -175,6 +188,15 @@ function buildIndex() {
     .map((slug) => projects.find((project) => project.slug === slug))
     .filter(Boolean);
   const featuredCards = [...featured, ...featured].map((project) => projectCard(project)).join("");
+  const netlifyDetectorForm = usesWeb3Forms() ? "" : `
+  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="contact" />
+    <input name="bot-field" />
+    <input name="name" />
+    <input name="email" />
+    <input name="phone" />
+    <textarea name="message"></textarea>
+  </form>`;
   const testimonials = (home.testimonials || [])
     .map((item) => `
         <blockquote class="testi-card">"${escapeHtml(item.quote)}" <cite>— ${escapeHtml(item.author || "Khách hàng")}</cite></blockquote>`)
@@ -216,14 +238,7 @@ function buildIndex() {
     </div>
   </section>
 
-  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
-    <input type="hidden" name="form-name" value="contact" />
-    <input name="bot-field" />
-    <input name="name" />
-    <input name="email" />
-    <input name="phone" />
-    <textarea name="message"></textarea>
-  </form>`;
+  ${netlifyDetectorForm}`;
 
   write("index.html", page({
     title: home.title,
@@ -287,9 +302,27 @@ function buildAbout() {
 function buildContact() {
   const contactPage = site.contactPage;
   const c = site.contact;
-  const formAction = contactPage.formAction && !contactPage.formAction.includes("your-id-here")
-    ? contactPage.formAction
-    : "/thank-you/";
+  const web3Forms = usesWeb3Forms();
+  const web3FormsAccessKeyValue = web3FormsAccessKey();
+  const formAction = web3Forms
+    ? "https://api.web3forms.com/submit"
+    : contactPage.formAction && !contactPage.formAction.includes("your-id-here")
+      ? contactPage.formAction
+      : "/thank-you/";
+  const formAttributes = web3Forms
+    ? 'data-form-provider="web3forms"'
+    : 'data-form-provider="netlify" data-netlify="true" netlify="true" netlify-honeypot="bot-field"';
+  const hiddenFields = web3Forms
+    ? `
+      <input type="hidden" name="access_key" value="${escapeAttr(web3FormsAccessKeyValue)}" />
+      <input type="hidden" name="subject" value="Lien he moi tu website Hong Nhung BDS" />
+      <input type="hidden" name="from_name" value="Website Hong Nhung BDS" />
+      <input type="checkbox" name="botcheck" class="form-hidden" style="display:none" tabindex="-1" autocomplete="off" />`
+    : `
+      <input type="hidden" name="form-name" value="contact" />
+      <p class="form-hidden">
+        <label>KhÃ´ng Ä‘iá»n Ã´ nÃ y <input name="bot-field" /></label>
+      </p>`;
   const body = `
   <section class="page-hero">
     <h1>${escapeHtml(contactPage.pageTitle)}</h1>
@@ -297,7 +330,8 @@ function buildContact() {
   </section>
 
   <section class="container contact-grid">
-    <form name="contact" action="${escapeAttr(formAction)}" method="POST" class="contact-form" data-netlify="true" netlify="true" netlify-honeypot="bot-field">
+    <form name="contact" action="${escapeAttr(formAction)}" method="POST" class="contact-form" ${formAttributes}>
+      ${hiddenFields}
       <input type="hidden" name="form-name" value="contact" />
       <p class="form-hidden">
         <label>Không điền ô này <input name="bot-field" /></label>

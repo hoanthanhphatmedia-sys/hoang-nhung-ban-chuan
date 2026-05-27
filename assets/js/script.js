@@ -40,7 +40,7 @@ if (navToggle && mobileMenu) {
   document.addEventListener("click", () => mobileMenu.classList.remove("open"));
 }
 
-const netlifyContactForm = document.querySelector('form.contact-form[data-netlify="true"]');
+const netlifyContactForm = document.querySelector("form.contact-form");
 if (netlifyContactForm) {
   netlifyContactForm.addEventListener("submit", async event => {
     if (!window.fetch || !window.FormData || !window.URLSearchParams) return;
@@ -58,16 +58,18 @@ if (netlifyContactForm) {
     if (!formData.has("form-name") && netlifyContactForm.name) {
       formData.append("form-name", netlifyContactForm.name);
     }
+    const provider = netlifyContactForm.dataset.formProvider || "netlify";
+    const submitUrl = provider === "web3forms" ? netlifyContactForm.action : "/";
 
     try {
-      const response = await fetch("/", {
+      const response = await fetch(submitUrl, {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams(formData).toString(),
       });
 
       if (!response.ok) throw new Error("Netlify form submit failed");
-      window.location.assign(netlifyContactForm.getAttribute("action") || "/thank-you/");
+      window.location.assign("/thank-you/");
     } catch (error) {
       HTMLFormElement.prototype.submit.call(netlifyContactForm);
     } finally {

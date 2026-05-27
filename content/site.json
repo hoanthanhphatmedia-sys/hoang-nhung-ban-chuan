@@ -119,6 +119,8 @@
     "description": "Liên hệ Hồng Nhung BĐS - tư vấn bất động sản cao cấp tại Hà Nội, Hưng Yên, Hải Phòng, Quảng Ninh, Bắc Ninh.",
     "pageTitle": "Liên hệ",
     "pageLead": "Hãy để lại thông tin, tôi sẽ phản hồi trong vòng 24 giờ.",
+    "formProvider": "web3forms",
+    "web3formsAccessKey": "6896ad9a-40e1-464a-b5b5-b831b2fa0413",
     "formAction": "/thank-you/"
   }
 }

@@ -60,7 +60,12 @@
   </section>
 
   <section class="container contact-grid">
-    <form name="contact" action="/thank-you/" method="POST" class="contact-form" data-netlify="true" netlify="true" netlify-honeypot="bot-field">
+    <form name="contact" action="https://api.web3forms.com/submit" method="POST" class="contact-form" data-form-provider="web3forms">
+      
+      <input type="hidden" name="access_key" value="6896ad9a-40e1-464a-b5b5-b831b2fa0413" />
+      <input type="hidden" name="subject" value="Lien he moi tu website Hong Nhung BDS" />
+      <input type="hidden" name="from_name" value="Website Hong Nhung BDS" />
+      <input type="checkbox" name="botcheck" class="form-hidden" style="display:none" tabindex="-1" autocomplete="off" />
       <input type="hidden" name="form-name" value="contact" />
       <p class="form-hidden">
         <label>Không điền ô này <input name="bot-field" /></label>
