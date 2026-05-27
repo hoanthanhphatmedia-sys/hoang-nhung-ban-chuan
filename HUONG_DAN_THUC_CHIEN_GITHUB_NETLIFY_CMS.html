@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hướng dẫn thực chiến GitHub + Netlify + CMS mini</title>
+  <style>
+    :root{
+      --bg:#0d1b2a;
+      --ink:#142033;
+      --muted:#647286;
+      --paper:#f7f4ed;
+      --card:#fff;
+      --line:#ded8cb;
+      --gold:#c8a14e;
+      --green:#0f7a4f;
+      --red:#b42318;
+      --teal:#00ad9f;
+      --code:#111827;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,"Helvetica Neue",sans-serif;line-height:1.65}
+    .cover{background:linear-gradient(135deg,#0d1b2a,#173654);color:#fff;padding:64px 24px 44px}
+    .wrap,.section{max-width:1080px;margin:0 auto}
+    .section{padding:28px 24px}
+    h1{font-size:42px;line-height:1.12;margin:0 0 14px}
+    h2{font-size:28px;margin:38px 0 14px}
+    h3{font-size:20px;margin:24px 0 10px}
+    p{margin:0 0 12px}
+    a{color:#04786f}
+    .lead{font-size:18px;color:#d9e4f0;max-width:850px}
+    .meta{margin-top:24px;color:#bfd0e2;font-size:14px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:22px;margin:16px 0;box-shadow:0 14px 34px rgba(13,27,42,.06)}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .note{border-left:4px solid var(--gold);background:#fff9ea;padding:14px 16px;margin:14px 0}
+    .ok{border-left-color:var(--green);background:#edfdf5}
+    .danger{border-left-color:var(--red);background:#fff1f0}
+    .small{font-size:14px;color:var(--muted)}
+    .badge{display:inline-block;background:#e0fbf7;color:#006b61;border-radius:999px;padding:3px 10px;font-size:12px;font-weight:700}
+    .step{display:flex;gap:14px;align-items:flex-start;margin:16px 0}
+    .num{width:34px;height:34px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;font-weight:700;flex:0 0 34px}
+    code{background:#f0ede6;border:1px solid #e2dccd;border-radius:5px;padding:2px 5px}
+    pre{background:var(--code);color:#e5e7eb;border-radius:10px;padding:16px;overflow:auto;line-height:1.5}
+    pre code{background:transparent;border:0;padding:0;color:inherit}
+    table{width:100%;border-collapse:collapse;margin:12px 0;background:#fff}
+    th,td{border:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}
+    th{background:#f1ede3}
+    .shot{width:100%;height:auto;border:1px solid #d4d8df;border-radius:10px;background:#fff;margin:12px 0}
+    .caption{font-size:13px;color:var(--muted);margin-top:-4px}
+    .checklist li{margin-bottom:8px}
+    .toc a{display:block;padding:8px 0;text-decoration:none;border-bottom:1px solid #eee}
+    .kbd{display:inline-block;border:1px solid #c6cbd3;background:#fff;border-radius:4px;padding:1px 6px;font-size:13px}
+    @media (max-width:820px){h1{font-size:32px}.grid{grid-template-columns:1fr}.section{padding:22px 16px}.cover{padding:44px 16px 32px}}
+    @media print{.cover{background:#fff;color:#000}.lead,.meta{color:#333}.card{box-shadow:none}}
+  </style>
+</head>
+<body>
+  <header class="cover">
+    <div class="wrap">
+      <span class="badge">Hồng Nhung BĐS · GitHub + Netlify</span>
+      <h1>Hướng dẫn thực chiến: triển khai website lên Netlify và quản trị nội dung tại /admin</h1>
+      <p class="lead">File này hướng dẫn từng bước đưa dự án hiện tại lên GitHub, kết nối Netlify, cấu hình Netlify Functions, thêm biến môi trường và kiểm tra quy trình sửa nội dung tự động.</p>
+      <p class="meta">Cập nhật: 27/05/2026 · Áp dụng cho thư mục dự án: <code>C:\Users\TPL\Downloads\web codex</code></p>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="card toc">
+        <h2>Kết quả sau khi làm xong</h2>
+        <ul class="checklist">
+          <li>Website chạy trên Netlify.</li>
+          <li>Mã nguồn và dữ liệu nằm trong GitHub.</li>
+          <li>Trang quản trị mở tại <code>https://ten-site.netlify.app/admin</code>.</li>
+          <li>Khi bấm <strong>Lưu & xuất bản</strong>, Netlify Function commit thay đổi vào GitHub.</li>
+          <li>GitHub có commit mới, Netlify tự build và deploy lại.</li>
+        </ul>
+        <a href="#map">1. Sơ đồ hoạt động</a>
+        <a href="#files">2. File Netlify đã chuẩn bị trong dự án</a>
+        <a href="#github">3. Đưa dự án lên GitHub</a>
+        <a href="#token">4. Tạo GitHub token cho CMS</a>
+        <a href="#netlify">5. Import project vào Netlify</a>
+        <a href="#env">6. Thêm Environment Variables</a>
+        <a href="#domain">7. Kết nối tên miền sunshine-legendcity.io.vn</a>
+        <a href="#admin">8. Dùng /admin để sửa và xuất bản</a>
+        <a href="#troubleshoot">9. Lỗi thường gặp</a>
+        <a href="#sources">10. Nguồn chính thức</a>
+      </div>
+    </section>
+
+    <section class="section" id="map">
+      <h2>1. Sơ đồ hoạt động</h2>
+      <div class="card">
+        <svg class="shot" viewBox="0 0 980 330" role="img" aria-label="Sơ đồ GitHub Netlify CMS">
+          <rect x="24" y="42" width="180" height="96" rx="12" fill="#e6fffb" stroke="#00ad9f"/>
+          <text x="114" y="78" text-anchor="middle" font-size="18" font-weight="700" fill="#142033">/admin</text>
+          <text x="114" y="106" text-anchor="middle" font-size="13" fill="#647286">Sửa nội dung</text>
+          <text x="114" y="126" text-anchor="middle" font-size="13" fill="#647286">Bấm lưu</text>
+
+          <path d="M210 90 H330" stroke="#647286" stroke-width="3" marker-end="url(#arrow)"/>
+          <rect x="340" y="42" width="200" height="96" rx="12" fill="#f2fffd" stroke="#00ad9f"/>
+          <text x="440" y="76" text-anchor="middle" font-size="18" font-weight="700" fill="#142033">Netlify Function</text>
+          <text x="440" y="104" text-anchor="middle" font-size="13" fill="#647286">/api/save</text>
+          <text x="440" y="124" text-anchor="middle" font-size="13" fill="#647286">Kiểm tra mật khẩu</text>
+
+          <path d="M546 90 H665" stroke="#647286" stroke-width="3" marker-end="url(#arrow)"/>
+          <rect x="675" y="42" width="190" height="96" rx="12" fill="#f3f4f6" stroke="#9ca3af"/>
+          <text x="770" y="76" text-anchor="middle" font-size="18" font-weight="700" fill="#142033">GitHub</text>
+          <text x="770" y="104" text-anchor="middle" font-size="13" fill="#647286">content/*.json</text>
+          <text x="770" y="124" text-anchor="middle" font-size="13" fill="#647286">Nhận commit mới</text>
+
+          <path d="M770 145 V205" stroke="#647286" stroke-width="3" marker-end="url(#arrow)"/>
+          <rect x="675" y="214" width="190" height="72" rx="12" fill="#e6fffb" stroke="#00ad9f"/>
+          <text x="770" y="244" text-anchor="middle" font-size="18" font-weight="700" fill="#142033">Netlify Build</text>
+          <text x="770" y="268" text-anchor="middle" font-size="13" fill="#647286">node scripts/build.js</text>
+
+          <path d="M668 250 H532" stroke="#647286" stroke-width="3" marker-end="url(#arrow)"/>
+          <rect x="332" y="214" width="190" height="72" rx="12" fill="#fff" stroke="#cbd5e1"/>
+          <text x="427" y="244" text-anchor="middle" font-size="18" font-weight="700" fill="#142033">HTML tĩnh</text>
+          <text x="427" y="268" text-anchor="middle" font-size="13" fill="#647286">index, du-an, assets</text>
+
+          <path d="M324 250 H205" stroke="#647286" stroke-width="3" marker-end="url(#arrow)"/>
+          <rect x="24" y="214" width="180" height="72" rx="12" fill="#fff" stroke="#cbd5e1"/>
+          <text x="114" y="244" text-anchor="middle" font-size="18" font-weight="700" fill="#142033">Khách xem web</text>
+          <text x="114" y="268" text-anchor="middle" font-size="13" fill="#647286">Nội dung mới</text>
+
+          <defs>
+            <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+              <path d="M0,0 L0,6 L9,3 z" fill="#647286"/>
+            </marker>
+          </defs>
+        </svg>
+        <p class="caption">Hình 1: Luồng vận hành GitHub + Netlify. Netlify Functions xử lý API lưu nội dung.</p>
+      </div>
+    </section>
+
+    <section class="section" id="files">
+      <h2>2. File Netlify đã chuẩn bị trong dự án</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>2.1. netlify.toml</h3>
+          <p>Dự án đã có file <code>netlify.toml</code> ở thư mục gốc:</p>
+          <pre><code>[build]
+  command = "node scripts/build.js"
+  publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/api/content"
+  to = "/.netlify/functions/content"
+  status = 200
+
+[[redirects]]
+  from = "/api/save"
+  to = "/.netlify/functions/save"
+  status = 200</code></pre>
+        </div>
+        <div class="card">
+          <h3>2.2. Netlify Functions</h3>
+          <p>Hai function đã được thêm:</p>
+          <ul>
+            <li><code>netlify/functions/content.js</code>: đọc dữ liệu CMS.</li>
+            <li><code>netlify/functions/save.js</code>: lưu thay đổi bằng cách commit về GitHub.</li>
+          </ul>
+          <div class="note ok">
+            <p>Nhờ redirect trong <code>netlify.toml</code>, admin vẫn gọi <code>/api/content</code> và <code>/api/save</code> như bản Vercel.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>2.3. Kiểm tra build local</h3>
+        <pre><code>cd "C:\Users\TPL\Downloads\web codex"
+node scripts/build.js</code></pre>
+        <p>Kết quả đúng:</p>
+        <pre><code>Built 21 project pages from content JSON.</code></pre>
+      </div>
+    </section>
+
+    <section class="section" id="github">
+      <h2>3. Đưa dự án lên GitHub</h2>
+      <div class="card">
+        <h3>3.1. Tạo repository</h3>
+        <div class="step"><div class="num">1</div><div>Vào <code>https://github.com</code> và đăng nhập.</div></div>
+        <div class="step"><div class="num">2</div><div>Bấm nút <strong>+</strong> → <strong>New repository</strong>.</div></div>
+        <div class="step"><div class="num">3</div><div>Đặt tên repo, ví dụ <code>hong-nhung-bds</code>.</div></div>
+        <div class="step"><div class="num">4</div><div>Chọn <strong>Private</strong> nếu chưa muốn public mã nguồn.</div></div>
+        <div class="step"><div class="num">5</div><div>Bấm <strong>Create repository</strong>.</div></div>
+
+        <svg class="shot" viewBox="0 0 980 430" role="img" aria-label="Mô phỏng tạo repository GitHub">
+          <rect width="980" height="430" fill="#f6f8fa"/>
+          <rect x="0" y="0" width="980" height="58" fill="#24292f"/>
+          <circle cx="34" cy="29" r="14" fill="#fff"/>
+          <text x="70" y="35" fill="#fff" font-size="16" font-weight="700">GitHub</text>
+          <rect x="710" y="16" width="118" height="28" rx="6" fill="#2da44e"/>
+          <text x="769" y="35" text-anchor="middle" fill="#fff" font-size="13">+ New</text>
+          <rect x="150" y="90" width="680" height="294" rx="10" fill="#fff" stroke="#d0d7de"/>
+          <text x="190" y="132" font-size="26" font-weight="700" fill="#24292f">Create a new repository</text>
+          <text x="190" y="176" font-size="14" fill="#57606a">Repository name</text>
+          <rect x="190" y="188" width="430" height="42" rx="6" fill="#fff" stroke="#0969da" stroke-width="2"/>
+          <text x="210" y="215" font-size="16" fill="#24292f">hong-nhung-bds</text>
+          <text x="190" y="264" font-size="14" fill="#57606a">Visibility</text>
+          <circle cx="205" cy="292" r="8" fill="#0969da"/>
+          <text x="225" y="297" font-size="15" fill="#24292f">Private</text>
+          <circle cx="305" cy="292" r="8" fill="#fff" stroke="#8c959f"/>
+          <text x="325" y="297" font-size="15" fill="#24292f">Public</text>
+          <rect x="190" y="326" width="180" height="40" rx="6" fill="#2da44e"/>
+          <text x="280" y="351" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Create repository</text>
+        </svg>
+        <p class="caption">Hình 2: Tạo repo trên GitHub.</p>
+      </div>
+
+      <div class="card">
+        <h3>3.2. Push bằng Git command line</h3>
+        <p>Cách này ổn định hơn upload web, đặc biệt khi thư mục có ảnh/video lớn.</p>
+        <pre><code>cd "C:\Users\TPL\Downloads\web codex"
+git init
+git add .
+git commit -m "Initial Netlify CMS site"
+git branch -M main
+git remote add origin https://github.com/&lt;OWNER&gt;/&lt;REPO&gt;.git
+git push -u origin main</code></pre>
+        <p>Thay <code>&lt;OWNER&gt;</code> và <code>&lt;REPO&gt;</code> bằng thông tin repo của chị.</p>
+        <div class="note danger">
+          <p>Nếu upload bằng giao diện web GitHub, file lớn khoảng trên 25 MiB có thể lỗi. Trong dự án hiện có file ảnh gốc khoảng 29 MB, nên push bằng Git command line là cách nên dùng.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="token">
+      <h2>4. Tạo GitHub token cho CMS</h2>
+      <div class="card">
+        <p>Token này để Netlify Function commit dữ liệu mới vào GitHub. Không đưa token vào file trong repo.</p>
+        <div class="step"><div class="num">1</div><div>Vào <code>https://github.com/settings/personal-access-tokens</code>.</div></div>
+        <div class="step"><div class="num">2</div><div>Chọn <strong>Fine-grained tokens</strong> → <strong>Generate new token</strong>.</div></div>
+        <div class="step"><div class="num">3</div><div>Repository access: chọn đúng repository website.</div></div>
+        <div class="step"><div class="num">4</div><div>Repository permissions → <strong>Contents</strong>: chọn <strong>Read and write</strong>.</div></div>
+        <div class="step"><div class="num">5</div><div>Bấm <strong>Generate token</strong>, copy token ngay.</div></div>
+
+        <svg class="shot" viewBox="0 0 980 430" role="img" aria-label="Mô phỏng tạo GitHub token">
+          <rect width="980" height="430" fill="#f6f8fa"/>
+          <rect x="90" y="44" width="800" height="338" rx="10" fill="#fff" stroke="#d0d7de"/>
+          <text x="130" y="88" font-size="24" font-weight="700" fill="#24292f">New fine-grained personal access token</text>
+          <text x="130" y="130" font-size="14" fill="#57606a">Token name</text>
+          <rect x="130" y="142" width="360" height="40" rx="6" fill="#fff" stroke="#d0d7de"/>
+          <text x="150" y="167" font-size="14" fill="#24292f">netlify-cms-hong-nhung-bds</text>
+          <text x="130" y="218" font-size="14" fill="#57606a">Repository access</text>
+          <circle cx="145" cy="246" r="8" fill="#0969da"/>
+          <text x="165" y="251" font-size="15" fill="#24292f">Only selected repositories</text>
+          <rect x="420" y="226" width="300" height="42" rx="6" fill="#e6fffb" stroke="#00ad9f"/>
+          <text x="570" y="252" text-anchor="middle" font-size="14" fill="#006b61">hong-nhung-bds</text>
+          <text x="130" y="306" font-size="14" fill="#57606a">Repository permissions</text>
+          <rect x="130" y="318" width="250" height="42" rx="6" fill="#fff" stroke="#d0d7de"/>
+          <text x="150" y="344" font-size="14" fill="#24292f">Contents: Read and write</text>
+          <rect x="670" y="318" width="160" height="42" rx="6" fill="#2da44e"/>
+          <text x="750" y="345" text-anchor="middle" font-size="14" fill="#fff" font-weight="700">Generate token</text>
+        </svg>
+        <p class="caption">Hình 3: Token cần quyền Contents: Read and write.</p>
+      </div>
+    </section>
+
+    <section class="section" id="netlify">
+      <h2>5. Import project vào Netlify</h2>
+      <div class="card">
+        <h3>5.1. Tạo project từ GitHub</h3>
+        <div class="step"><div class="num">1</div><div>Vào <code>https://app.netlify.com</code> và đăng nhập.</div></div>
+        <div class="step"><div class="num">2</div><div>Bấm <strong>Add new project</strong>.</div></div>
+        <div class="step"><div class="num">3</div><div>Chọn <strong>Import an existing project</strong>.</div></div>
+        <div class="step"><div class="num">4</div><div>Chọn GitHub, cấp quyền cho Netlify nếu được hỏi.</div></div>
+        <div class="step"><div class="num">5</div><div>Chọn repository website.</div></div>
+
+        <svg class="shot" viewBox="0 0 980 430" role="img" aria-label="Mô phỏng import Netlify">
+          <rect width="980" height="430" fill="#f7faf9"/>
+          <rect x="72" y="44" width="836" height="338" rx="14" fill="#fff" stroke="#d4d8df"/>
+          <text x="118" y="90" font-size="26" font-weight="700" fill="#142033">Add new project</text>
+          <rect x="118" y="125" width="240" height="145" rx="10" fill="#e6fffb" stroke="#00ad9f"/>
+          <text x="238" y="176" text-anchor="middle" font-size="18" font-weight="700" fill="#142033">Import an existing project</text>
+          <text x="238" y="208" text-anchor="middle" font-size="13" fill="#647286">GitHub, GitLab, Bitbucket...</text>
+          <rect x="394" y="125" width="240" height="145" rx="10" fill="#f9fafb" stroke="#d4d8df"/>
+          <text x="514" y="176" text-anchor="middle" font-size="18" font-weight="700" fill="#142033">Deploy manually</text>
+          <text x="514" y="208" text-anchor="middle" font-size="13" fill="#647286">Không khuyến nghị cho CMS</text>
+          <rect x="670" y="125" width="180" height="145" rx="10" fill="#f9fafb" stroke="#d4d8df"/>
+          <text x="760" y="176" text-anchor="middle" font-size="18" font-weight="700" fill="#142033">Start from AI</text>
+          <path d="M236 272 V326 H420" stroke="#00ad9f" stroke-width="5" fill="none" marker-end="url(#arrow2)"/>
+          <text x="420" y="333" font-size="14" fill="#006b61" font-weight="700">Chọn repo GitHub</text>
+          <defs><marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#00ad9f"/></marker></defs>
+        </svg>
+        <p class="caption">Hình 4: Bắt đầu bằng Import an existing project để có continuous deployment.</p>
+      </div>
+
+      <div class="card">
+        <h3>5.2. Build settings</h3>
+        <p>Vì dự án đã có <code>netlify.toml</code>, Netlify thường tự đọc cấu hình. Nếu cần nhập thủ công, dùng:</p>
+        <table>
+          <thead><tr><th>Mục</th><th>Giá trị</th></tr></thead>
+          <tbody>
+            <tr><td>Base directory</td><td>Để trống</td></tr>
+            <tr><td>Build command</td><td><code>node scripts/build.js</code></td></tr>
+            <tr><td>Publish directory</td><td><code>.</code></td></tr>
+            <tr><td>Functions directory</td><td><code>netlify/functions</code></td></tr>
+          </tbody>
+        </table>
+
+        <svg class="shot" viewBox="0 0 980 430" role="img" aria-label="Mô phỏng build settings Netlify">
+          <rect width="980" height="430" fill="#f7faf9"/>
+          <rect x="98" y="52" width="784" height="328" rx="12" fill="#fff" stroke="#d4d8df"/>
+          <text x="138" y="94" font-size="24" font-weight="700" fill="#142033">Deploy settings</text>
+          <text x="138" y="140" font-size="13" fill="#647286">Build command</text>
+          <rect x="138" y="152" width="360" height="42" rx="6" fill="#fff" stroke="#00ad9f"/>
+          <text x="158" y="178" font-size="14" fill="#142033">node scripts/build.js</text>
+          <text x="138" y="232" font-size="13" fill="#647286">Publish directory</text>
+          <rect x="138" y="244" width="120" height="42" rx="6" fill="#fff" stroke="#00ad9f"/>
+          <text x="198" y="270" text-anchor="middle" font-size="16" fill="#142033">.</text>
+          <text x="138" y="324" font-size="13" fill="#647286">Branch to deploy</text>
+          <rect x="138" y="336" width="160" height="42" rx="6" fill="#fff" stroke="#d4d8df"/>
+          <text x="218" y="362" text-anchor="middle" font-size="14" fill="#142033">main</text>
+          <rect x="660" y="320" width="150" height="44" rx="6" fill="#00ad9f"/>
+          <text x="735" y="348" text-anchor="middle" font-size="15" fill="#fff" font-weight="700">Deploy</text>
+        </svg>
+        <p class="caption">Hình 5: Build command và publish directory cho dự án này.</p>
+      </div>
+    </section>
+
+    <section class="section" id="env">
+      <h2>6. Thêm Environment Variables</h2>
+      <div class="card">
+        <p>Vào Netlify project → <strong>Project configuration</strong> → <strong>Environment variables</strong>. Thêm các biến sau:</p>
+        <table>
+          <thead><tr><th>Tên biến</th><th>Giá trị mẫu</th><th>Ghi chú</th></tr></thead>
+          <tbody>
+            <tr><td><code>ADMIN_PASSWORD</code></td><td><code>mat-khau-rieng</code></td><td>Mật khẩu đăng nhập <code>/admin</code>.</td></tr>
+            <tr><td><code>GITHUB_TOKEN</code></td><td><code>github_pat_...</code></td><td>Token GitHub có quyền Contents Read/write.</td></tr>
+            <tr><td><code>GITHUB_OWNER</code></td><td><code>ten-tai-khoan-github</code></td><td>Owner repo.</td></tr>
+            <tr><td><code>GITHUB_REPO</code></td><td><code>hong-nhung-bds</code></td><td>Tên repo.</td></tr>
+            <tr><td><code>GITHUB_BRANCH</code></td><td><code>main</code></td><td>Nhánh production.</td></tr>
+            <tr><td><code>NODE_VERSION</code></td><td><code>22</code></td><td>Khuyến nghị để Netlify build bằng Node hiện đại.</td></tr>
+          </tbody>
+        </table>
+        <div class="note">
+          <p>Sau khi thêm biến môi trường, hãy trigger deploy lại để Netlify Functions nhận biến mới.</p>
+        </div>
+
+        <svg class="shot" viewBox="0 0 980 470" role="img" aria-label="Mô phỏng Environment Variables Netlify">
+          <rect width="980" height="470" fill="#f7faf9"/>
+          <rect x="76" y="42" width="828" height="370" rx="10" fill="#fff" stroke="#d4d8df"/>
+          <text x="118" y="84" font-size="24" font-weight="700" fill="#142033">Environment variables</text>
+          <text x="118" y="118" font-size="14" fill="#647286">Site-level variables used by builds and functions</text>
+          <rect x="118" y="146" width="220" height="38" rx="6" fill="#f9fafb" stroke="#d4d8df"/>
+          <text x="132" y="170" font-size="14" fill="#142033">ADMIN_PASSWORD</text>
+          <rect x="350" y="146" width="350" height="38" rx="6" fill="#f9fafb" stroke="#d4d8df"/>
+          <text x="364" y="170" font-size="14" fill="#647286">••••••••••••</text>
+          <rect x="720" y="146" width="82" height="38" rx="6" fill="#00ad9f"/>
+          <text x="761" y="170" text-anchor="middle" font-size="14" fill="#fff">Add</text>
+          <rect x="118" y="204" width="684" height="42" rx="6" fill="#e6fffb" stroke="#00ad9f"/>
+          <text x="138" y="230" font-size="14" fill="#006b61">GITHUB_TOKEN</text>
+          <text x="340" y="230" font-size="14" fill="#006b61">Builds + Functions</text>
+          <rect x="118" y="258" width="684" height="42" rx="6" fill="#e6fffb" stroke="#00ad9f"/>
+          <text x="138" y="284" font-size="14" fill="#006b61">GITHUB_OWNER</text>
+          <rect x="118" y="312" width="684" height="42" rx="6" fill="#e6fffb" stroke="#00ad9f"/>
+          <text x="138" y="338" font-size="14" fill="#006b61">GITHUB_REPO</text>
+          <rect x="118" y="366" width="684" height="42" rx="6" fill="#e6fffb" stroke="#00ad9f"/>
+          <text x="138" y="392" font-size="14" fill="#006b61">GITHUB_BRANCH / NODE_VERSION</text>
+        </svg>
+        <p class="caption">Hình 6: Cần đủ biến môi trường cho admin và GitHub commit.</p>
+      </div>
+    </section>
+
+    <section class="section" id="domain">
+      <h2>7. Kết nối tên miền sunshine-legendcity.io.vn</h2>
+      <div class="card">
+        <h3>7.1. Mục tiêu</h3>
+        <p>Sau khi cấu hình xong, website sẽ mở được bằng:</p>
+        <ul>
+          <li><code>https://sunshine-legendcity.io.vn</code></li>
+          <li><code>https://www.sunshine-legendcity.io.vn</code></li>
+        </ul>
+        <p>Khuyến nghị thực tế: dùng <strong>sunshine-legendcity.io.vn</strong> làm domain chính, còn <strong>www.sunshine-legendcity.io.vn</strong> tự chuyển hướng về domain chính.</p>
+      </div>
+
+      <div class="card">
+        <h3>7.2. Thêm domain trong Netlify trước</h3>
+        <div class="step"><div class="num">1</div><div>Vào Netlify project của website.</div></div>
+        <div class="step"><div class="num">2</div><div>Ở menu trái, chọn <strong>Domain management</strong>.</div></div>
+        <div class="step"><div class="num">3</div><div>Bấm <strong>Add a domain</strong> hoặc <strong>Add custom domain</strong>.</div></div>
+        <div class="step"><div class="num">4</div><div>Nhập chính xác: <code>sunshine-legendcity.io.vn</code>.</div></div>
+        <div class="step"><div class="num">5</div><div>Xác nhận thêm domain. Netlify có thể tự thêm thêm bản <code>www.sunshine-legendcity.io.vn</code>.</div></div>
+
+        <svg class="shot" viewBox="0 0 980 430" role="img" aria-label="Mô phỏng thêm custom domain Netlify">
+          <rect width="980" height="430" fill="#f7faf9"/>
+          <rect x="72" y="44" width="836" height="338" rx="14" fill="#fff" stroke="#d4d8df"/>
+          <text x="118" y="90" font-size="26" font-weight="700" fill="#142033">Domain management</text>
+          <rect x="118" y="122" width="720" height="70" rx="8" fill="#f9fafb" stroke="#d4d8df"/>
+          <text x="146" y="153" font-size="14" fill="#647286">Production domains</text>
+          <text x="146" y="176" font-size="18" fill="#142033">your-site.netlify.app</text>
+          <rect x="650" y="138" width="150" height="38" rx="6" fill="#00ad9f"/>
+          <text x="725" y="162" text-anchor="middle" font-size="14" fill="#fff" font-weight="700">Add a domain</text>
+          <rect x="118" y="232" width="520" height="74" rx="8" fill="#e6fffb" stroke="#00ad9f"/>
+          <text x="146" y="262" font-size="14" fill="#006b61" font-weight="700">Custom domain</text>
+          <text x="146" y="286" font-size="19" fill="#142033">sunshine-legendcity.io.vn</text>
+          <path d="M725 178 C718 220 660 244 640 256" stroke="#00ad9f" stroke-width="5" fill="none" marker-end="url(#arrow-domain)"/>
+          <defs><marker id="arrow-domain" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#00ad9f"/></marker></defs>
+        </svg>
+        <p class="caption">Hình 7: Thêm custom domain trong Netlify trước khi chỉnh DNS.</p>
+      </div>
+
+      <div class="card">
+        <h3>7.3. Cách dễ kiểm soát nhất: giữ DNS tại nơi mua tên miền</h3>
+        <p>Đăng nhập vào nơi chị mua/quản lý tên miền <code>sunshine-legendcity.io.vn</code>, mở phần DNS hoặc Quản lý bản ghi DNS. Thêm/sửa các bản ghi sau:</p>
+        <table>
+          <thead><tr><th>Loại</th><th>Host / Name</th><th>Value / Points to</th><th>Ghi chú</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><code>A</code></td>
+              <td><code>@</code> hoặc để trống</td>
+              <td><code>75.2.60.5</code></td>
+              <td>Trỏ domain gốc <code>sunshine-legendcity.io.vn</code> về Netlify.</td>
+            </tr>
+            <tr>
+              <td><code>CNAME</code></td>
+              <td><code>www</code></td>
+              <td><code>&lt;ten-site-netlify&gt;.netlify.app</code></td>
+              <td>Thay bằng URL Netlify thật, ví dụ <code>sunshine-legendcity.netlify.app</code>.</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="note">
+          <p>Nếu nhà cung cấp DNS hỗ trợ <strong>ALIAS</strong>, <strong>ANAME</strong> hoặc <strong>flattened CNAME</strong> cho host <code>@</code>, có thể trỏ <code>@</code> tới <code>apex-loadbalancer.netlify.com</code> thay cho bản ghi A. Nếu không thấy các loại bản ghi đó, dùng A record <code>75.2.60.5</code>.</p>
+        </div>
+
+        <svg class="shot" viewBox="0 0 980 470" role="img" aria-label="Mô phỏng cấu hình DNS">
+          <rect width="980" height="470" fill="#f7faf9"/>
+          <rect x="76" y="42" width="828" height="370" rx="10" fill="#fff" stroke="#d4d8df"/>
+          <text x="118" y="84" font-size="24" font-weight="700" fill="#142033">DNS records</text>
+          <text x="118" y="118" font-size="14" fill="#647286">sunshine-legendcity.io.vn</text>
+          <rect x="118" y="150" width="120" height="42" rx="6" fill="#e6fffb" stroke="#00ad9f"/>
+          <text x="178" y="176" text-anchor="middle" font-size="14" fill="#006b61" font-weight="700">A</text>
+          <rect x="250" y="150" width="170" height="42" rx="6" fill="#fff" stroke="#d4d8df"/>
+          <text x="335" y="176" text-anchor="middle" font-size="14" fill="#142033">@</text>
+          <rect x="432" y="150" width="250" height="42" rx="6" fill="#fff" stroke="#d4d8df"/>
+          <text x="557" y="176" text-anchor="middle" font-size="14" fill="#142033">75.2.60.5</text>
+          <rect x="700" y="150" width="90" height="42" rx="6" fill="#00ad9f"/>
+          <text x="745" y="176" text-anchor="middle" font-size="14" fill="#fff">Save</text>
+          <rect x="118" y="232" width="120" height="42" rx="6" fill="#e6fffb" stroke="#00ad9f"/>
+          <text x="178" y="258" text-anchor="middle" font-size="14" fill="#006b61" font-weight="700">CNAME</text>
+          <rect x="250" y="232" width="170" height="42" rx="6" fill="#fff" stroke="#d4d8df"/>
+          <text x="335" y="258" text-anchor="middle" font-size="14" fill="#142033">www</text>
+          <rect x="432" y="232" width="250" height="42" rx="6" fill="#fff" stroke="#d4d8df"/>
+          <text x="557" y="258" text-anchor="middle" font-size="14" fill="#142033">ten-site.netlify.app</text>
+          <rect x="700" y="232" width="90" height="42" rx="6" fill="#00ad9f"/>
+          <text x="745" y="258" text-anchor="middle" font-size="14" fill="#fff">Save</text>
+          <text x="118" y="330" font-size="14" fill="#647286">TTL: để Auto hoặc 3600 nếu có lựa chọn.</text>
+          <text x="118" y="360" font-size="14" fill="#647286">Xóa bản ghi A/CNAME cũ cùng host nếu đang trỏ sang server khác.</text>
+        </svg>
+        <p class="caption">Hình 8: Bản ghi DNS cần tạo ở nơi quản lý tên miền.</p>
+      </div>
+
+      <div class="card">
+        <h3>7.4. Chọn Primary domain trong Netlify</h3>
+        <div class="step"><div class="num">1</div><div>Quay lại Netlify → <strong>Domain management</strong>.</div></div>
+        <div class="step"><div class="num">2</div><div>Đợi domain hết trạng thái <strong>Pending DNS verification</strong>.</div></div>
+        <div class="step"><div class="num">3</div><div>Ở <code>sunshine-legendcity.io.vn</code>, chọn menu tùy chọn → <strong>Set as primary domain</strong>.</div></div>
+        <div class="step"><div class="num">4</div><div>Netlify sẽ chuyển hướng domain phụ về domain chính.</div></div>
+        <div class="note ok">
+          <p>Nếu muốn dùng <code>www.sunshine-legendcity.io.vn</code> làm domain chính, đặt <code>www</code> làm primary. Tuy nhiên theo yêu cầu hiện tại, nên đặt domain gốc <code>sunshine-legendcity.io.vn</code> làm primary.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>7.5. Bật HTTPS / SSL</h3>
+        <div class="step"><div class="num">1</div><div>Trong Netlify project, vào <strong>Domain management</strong> → <strong>HTTPS</strong>.</div></div>
+        <div class="step"><div class="num">2</div><div>Chọn <strong>Verify DNS configuration</strong> nếu có nút này.</div></div>
+        <div class="step"><div class="num">3</div><div>Chọn <strong>Provision certificate</strong> hoặc chờ Netlify tự cấp chứng chỉ Let's Encrypt.</div></div>
+        <div class="step"><div class="num">4</div><div>Khi trạng thái HTTPS thành công, mở <code>https://sunshine-legendcity.io.vn</code>.</div></div>
+        <p class="small">DNS có thể cần vài giờ, đôi khi 24-48 giờ, để lan truyền toàn mạng. Trong thời gian đó domain có thể lúc được lúc chưa.</p>
+      </div>
+
+      <div class="card">
+        <h3>7.6. Kiểm tra sau khi cấu hình</h3>
+        <p>Kiểm tra bằng trình duyệt:</p>
+        <ul>
+          <li><code>https://sunshine-legendcity.io.vn</code> mở được website.</li>
+          <li><code>https://www.sunshine-legendcity.io.vn</code> tự chuyển về domain chính hoặc cũng mở được website.</li>
+          <li><code>https://sunshine-legendcity.io.vn/admin</code> mở được CMS.</li>
+        </ul>
+        <p>Nếu có terminal, có thể kiểm tra DNS:</p>
+        <pre><code>nslookup sunshine-legendcity.io.vn
+nslookup www.sunshine-legendcity.io.vn</code></pre>
+        <p>Kết quả mong muốn:</p>
+        <ul>
+          <li><code>sunshine-legendcity.io.vn</code> có A record về <code>75.2.60.5</code> nếu dùng external DNS.</li>
+          <li><code>www.sunshine-legendcity.io.vn</code> có CNAME về site Netlify.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="admin">
+      <h2>8. Dùng /admin để sửa và xuất bản</h2>
+      <div class="card">
+        <h3>7.1. Mở trang quản trị</h3>
+        <pre><code>https://ten-site.netlify.app/admin</code></pre>
+        <p>Nhập mật khẩu đã đặt trong <code>ADMIN_PASSWORD</code>.</p>
+
+        <svg class="shot" viewBox="0 0 980 430" role="img" aria-label="Mô phỏng admin trên Netlify">
+          <rect width="980" height="430" fill="#10243a"/>
+          <rect x="310" y="76" width="360" height="280" rx="10" fill="#fff"/>
+          <text x="490" y="132" text-anchor="middle" font-size="13" fill="#00ad9f" font-weight="700">HỒNG NHUNG BĐS</text>
+          <text x="490" y="166" text-anchor="middle" font-size="26" font-weight="700" fill="#142033">Quản trị nội dung</text>
+          <text x="344" y="218" font-size="13" fill="#647286" font-weight="700">Mật khẩu quản trị</text>
+          <rect x="344" y="232" width="292" height="42" rx="6" fill="#fff" stroke="#00ad9f"/>
+          <text x="364" y="258" font-size="18" fill="#647286">••••••••••</text>
+          <rect x="344" y="292" width="292" height="44" rx="6" fill="#00ad9f"/>
+          <text x="490" y="320" text-anchor="middle" font-size="15" fill="#fff" font-weight="700">Đăng nhập</text>
+        </svg>
+        <p class="caption">Hình 7: Đăng nhập /admin.</p>
+      </div>
+      <div class="card">
+        <h3>7.2. Quy trình sửa nội dung</h3>
+        <ol>
+          <li>Chọn tab cần sửa: Thông tin chung, Trang chủ, Giới thiệu, Liên hệ hoặc Dự án.</li>
+          <li>Sửa nội dung.</li>
+          <li>Bấm <strong>Lưu & xuất bản</strong>.</li>
+          <li>Netlify Function commit vào GitHub.</li>
+          <li>Netlify nhận commit mới và deploy lại.</li>
+          <li>Mở website, bấm <span class="kbd">Ctrl</span> + <span class="kbd">F5</span> nếu còn cache cũ.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="troubleshoot">
+      <h2>9. Lỗi thường gặp</h2>
+      <div class="card">
+        <table>
+          <thead><tr><th>Lỗi</th><th>Nguyên nhân</th><th>Cách xử lý</th></tr></thead>
+          <tbody>
+            <tr><td>/admin mở nhưng không đẹp hoặc bấm không chạy</td><td>CSS/JS không tải hoặc cache cũ.</td><td>Kiểm tra <code>/admin/admin.css</code>, <code>/admin/admin.js</code>. Bấm <span class="kbd">Ctrl</span> + <span class="kbd">F5</span>.</td></tr>
+            <tr><td>Đăng nhập báo Unauthorized</td><td>Sai <code>ADMIN_PASSWORD</code>.</td><td>Kiểm tra biến môi trường Netlify và đăng nhập lại.</td></tr>
+            <tr><td>Bấm lưu báo Missing GITHUB_TOKEN</td><td>Chưa thêm biến hoặc chưa deploy lại.</td><td>Thêm biến trong Netlify rồi redeploy.</td></tr>
+            <tr><td>Bấm lưu báo GitHub API 404</td><td>Sai owner/repo/branch hoặc token không có quyền repo.</td><td>Kiểm tra <code>GITHUB_OWNER</code>, <code>GITHUB_REPO</code>, <code>GITHUB_BRANCH</code> và quyền token.</td></tr>
+            <tr><td>Netlify build lỗi</td><td>Build command/publish directory sai hoặc JSON lỗi.</td><td>Chạy local <code>node scripts/build.js</code>. Netlify dùng command <code>node scripts/build.js</code>, publish <code>.</code>.</td></tr>
+            <tr><td>Website chưa cập nhật sau khi lưu</td><td>Netlify đang deploy hoặc cache.</td><td>Vào Netlify → Deploys kiểm tra build đã Published chưa, sau đó refresh mạnh trình duyệt.</td></tr>
+            <tr><td><code>sunshine-legendcity.io.vn</code> chưa mở được</td><td>DNS chưa lan truyền, thiếu A record, hoặc domain chưa được thêm vào Netlify.</td><td>Kiểm tra Netlify → Domain management. Kiểm tra DNS có A record <code>@ → 75.2.60.5</code>.</td></tr>
+            <tr><td><code>www.sunshine-legendcity.io.vn</code> chưa mở được</td><td>Thiếu CNAME cho host <code>www</code>.</td><td>Thêm CNAME <code>www → &lt;ten-site-netlify&gt;.netlify.app</code>.</td></tr>
+            <tr><td>HTTPS báo lỗi certificate</td><td>DNS chưa trỏ đúng hoặc Netlify chưa cấp xong chứng chỉ.</td><td>Đợi DNS ổn định, sau đó vào Domain management → HTTPS → Verify/Provision certificate.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card">
+        <h3>Checklist nghiệm thu</h3>
+        <ul class="checklist">
+          <li>Repo GitHub có <code>netlify.toml</code>.</li>
+          <li>Repo GitHub có thư mục <code>netlify/functions</code>.</li>
+          <li>Netlify deploy thành công.</li>
+          <li>Netlify có đủ biến môi trường.</li>
+          <li>Mở được <code>/admin</code>.</li>
+          <li>Sửa thử một nội dung nhỏ, bấm lưu, thấy GitHub có commit mới.</li>
+          <li>Netlify Deploys có deployment mới sau commit.</li>
+          <li>Website public hiển thị nội dung mới.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="sources">
+      <h2>10. Nguồn chính thức</h2>
+      <div class="card">
+        <ul>
+          <li><a href="https://docs.netlify.com/start/add-new-project/" target="_blank" rel="noopener">Netlify Docs: Add new project / Import an existing repository</a></li>
+          <li><a href="https://docs.netlify.com/start/quickstarts/deploy-from-repository/" target="_blank" rel="noopener">Netlify Docs: Deploy from repository quickstart</a></li>
+          <li><a href="https://docs.netlify.com/configure-builds/get-started/" target="_blank" rel="noopener">Netlify Docs: Build configuration overview</a></li>
+          <li><a href="https://docs.netlify.com/build/configure-builds/environment-variables/" target="_blank" rel="noopener">Netlify Docs: Build environment variables</a></li>
+          <li><a href="https://docs.netlify.com/functions/get-started/" target="_blank" rel="noopener">Netlify Docs: Get started with Functions</a></li>
+          <li><a href="https://docs.netlify.com/domains/configure-domains/configure-external-dns/" target="_blank" rel="noopener">Netlify Docs: Configure external DNS for a custom domain</a></li>
+          <li><a href="https://docs.netlify.com/domains/get-started-with-domains/" target="_blank" rel="noopener">Netlify Docs: Get started with domains</a></li>
+          <li><a href="https://docs.netlify.com/domains-https/https-ssl/" target="_blank" rel="noopener">Netlify Docs: HTTPS / SSL</a></li>
+          <li><a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository" target="_blank" rel="noopener">GitHub Docs: Creating a new repository</a></li>
+          <li><a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens" target="_blank" rel="noopener">GitHub Docs: Managing personal access tokens</a></li>
+        </ul>
+        <p class="small">Hình trong file này là hình minh họa tự vẽ để thao tác dễ hơn. Giao diện GitHub/Netlify có thể thay đổi nhẹ theo thời gian.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
