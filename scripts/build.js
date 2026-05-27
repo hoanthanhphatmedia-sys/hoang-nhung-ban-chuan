@@ -345,12 +345,23 @@ function buildThankYou() {
     </div>
   </section>`;
 
-  write("thank-you.html", page({
+  const thankYouPage = page({
     title: `Gửi liên hệ thành công | ${site.brand}`,
     description: "Cảm ơn quý khách đã gửi thông tin liên hệ.",
     active: "contact",
     body,
-  }));
+  });
+
+  const thankYouIndexPage = page({
+    title: `Gửi liên hệ thành công | ${site.brand}`,
+    description: "Cảm ơn quý khách đã gửi thông tin liên hệ.",
+    active: "contact",
+    prefix: "../",
+    body,
+  });
+
+  write("thank-you.html", thankYouPage);
+  write("thank-you/index.html", thankYouIndexPage);
 }
 
 function pairGrid(items = [], className = "") {
