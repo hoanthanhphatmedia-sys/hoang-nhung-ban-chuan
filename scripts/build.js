@@ -214,7 +214,16 @@ function buildIndex() {
       </div>
       <div class="testi-dots" aria-label="Điều hướng cảm nhận"></div>
     </div>
-  </section>`;
+  </section>
+
+  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="contact" />
+    <input name="bot-field" />
+    <input name="name" />
+    <input name="email" />
+    <input name="phone" />
+    <textarea name="message"></textarea>
+  </form>`;
 
   write("index.html", page({
     title: home.title,
@@ -288,7 +297,7 @@ function buildContact() {
   </section>
 
   <section class="container contact-grid">
-    <form name="contact" action="${escapeAttr(formAction)}" method="POST" class="contact-form" data-netlify="true" netlify-honeypot="bot-field">
+    <form name="contact" action="${escapeAttr(formAction)}" method="POST" class="contact-form" data-netlify="true" netlify="true" netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="contact" />
       <p class="form-hidden">
         <label>Không điền ô này <input name="bot-field" /></label>
