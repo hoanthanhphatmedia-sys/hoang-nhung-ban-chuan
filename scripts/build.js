@@ -289,7 +289,7 @@ function buildContact() {
   const c = site.contact;
   const formAction = contactPage.formAction && !contactPage.formAction.includes("your-id-here")
     ? contactPage.formAction
-    : "/thank-you.html";
+    : "/thank-you/";
   const body = `
   <section class="page-hero">
     <h1>${escapeHtml(contactPage.pageTitle)}</h1>
@@ -443,7 +443,7 @@ function buildDataFile() {
 }
 
 function buildSitemap() {
-  const urls = ["index.html", "about.html", "listings.html", "contact.html", "thank-you.html", ...projects.map((project) => `du-an/${project.slug}.html`)];
+  const urls = ["index.html", "about.html", "listings.html", "contact.html", "thank-you.html", "thank-you/", ...projects.map((project) => `du-an/${project.slug}.html`)];
   const body = urls
     .map((url) => `  <url><loc>/${url}</loc></url>`)
     .join("\n");
