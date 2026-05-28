@@ -212,8 +212,10 @@ function buildIndex() {
       <p class="eyebrow">${escapeHtml(home.eyebrow)}</p>
       <h1>${escapeHtml(home.heading)}</h1>
       <p class="lead">${escapeHtml(home.lead)}</p>
-      <a href="listings.html" class="btn btn-primary">Xem danh mục</a>
-      <a href="contact.html" class="btn btn-ghost">Liên hệ ngay</a>
+      <div class="hero-actions">
+        <a href="listings.html" class="btn btn-primary">Xem danh mục</a>
+        <a href="contact.html" class="btn btn-ghost">Liên hệ ngay</a>
+      </div>
     </div>
   </section>
 
