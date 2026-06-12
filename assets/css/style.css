@@ -223,12 +223,9 @@ a{color:inherit}
   flex-direction:column;
   align-items:center;
   justify-content:center;
-  background-image:
-    linear-gradient(180deg, rgba(8,20,32,.72), rgba(8,20,32,.64)),
-    var(--page-hero-image);
-  background-size:cover;
-  background-position:center 48%;
-  background-repeat:no-repeat;
+  background:
+    linear-gradient(180deg, rgba(8,20,32,.48), rgba(8,20,32,.36)),
+    var(--page-hero-image) center 50% / cover no-repeat;
 }
 .page-hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(40px,5vw,64px);margin-bottom:10px}
 .page-hero p{color:#c7ccd3}

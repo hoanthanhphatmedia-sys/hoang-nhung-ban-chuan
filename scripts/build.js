@@ -4,6 +4,7 @@ const path = require("path");
 const root = path.resolve(__dirname, "..");
 const site = readJson("content/site.json");
 const projects = readJson("content/projects.json");
+const assetVersion = "20260612-cover";
 
 function readJson(relPath) {
   return JSON.parse(fs.readFileSync(path.join(root, relPath), "utf8"));
@@ -147,7 +148,7 @@ function page({ title, description, active, prefix = "", body }) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&amp;family=Cormorant+Garamond:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="${prefix}assets/css/style.css" />
+  <link rel="stylesheet" href="${prefix}assets/css/style.css?v=${assetVersion}" />
 </head>
 <body>
 ${header(active, prefix)}
