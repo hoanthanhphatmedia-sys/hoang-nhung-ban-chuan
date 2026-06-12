@@ -5,11 +5,11 @@ window.SITE_PROPERTIES = [
     "type": "Căn hộ",
     "name": "Sunshine Legend City",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "Phân khu Legend - căn hộ cao cấp",
+    "meta": "Căn hộ cao cấp trong đô thị Sunshine Legend City",
     "img": "assets/img/sunshine-legend-city-canho.jpg"
   },
   {
@@ -18,11 +18,11 @@ window.SITE_PROPERTIES = [
     "type": "Căn hộ",
     "name": "Alumi - Alluvia City",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "Alumi Premium - 2.582 căn hộ",
+    "meta": "Căn hộ Alumi thuộc Alluvia City",
     "img": "assets/img/alluvia-city-canho.jpg"
   },
   {
@@ -31,11 +31,11 @@ window.SITE_PROPERTIES = [
     "type": "Căn hộ",
     "name": "Masteri Grand Coast",
     "addr": "Ocean City, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "The Wave - Masteri Collection tại Ocean City",
+    "meta": "Căn hộ cao cấp Masterise Homes tại Ocean City",
     "img": "assets/img/masteri-grand-coast.jpg"
   },
   {
@@ -43,12 +43,12 @@ window.SITE_PROPERTIES = [
     "slug": "masteri-era-landmark",
     "type": "Căn hộ",
     "name": "Masteri Era Landmark",
-    "addr": "Ocean Park 3, Hưng Yên",
-    "price": "Liên hệ",
+    "addr": "Ocean City, Hưng Yên",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "Studio - 3PN, Penthouse",
+    "meta": "Căn hộ Masterise Homes tại Ocean Park 3",
     "img": "assets/img/masteri-era-landmark.jpg"
   },
   {
@@ -57,11 +57,11 @@ window.SITE_PROPERTIES = [
     "type": "Căn hộ",
     "name": "Hanoi Seasons Garden",
     "addr": "Nguyễn Trãi, Thanh Xuân, Hà Nội",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 2,
     "baths": 2,
     "area": 80,
-    "meta": "Nguyễn Trãi, Thanh Xuân - 10 tòa, 35-46 tầng",
+    "meta": "Căn hộ cao cấp tại trục Nguyễn Trãi",
     "img": "assets/img/hanoi-seasons-garden.jpg"
   },
   {
@@ -70,11 +70,11 @@ window.SITE_PROPERTIES = [
     "type": "Căn hộ",
     "name": "Chung cư Ecopark",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "Căn hộ trong KĐT Ecopark 500 ha",
+    "meta": "Căn hộ trong khu đô thị Ecopark",
     "img": "assets/img/ecopark-canho.jpg"
   },
   {
@@ -83,11 +83,11 @@ window.SITE_PROPERTIES = [
     "type": "Biệt thự",
     "name": "Biệt thự Sunshine Legend City",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "Wonder Island/Riviera - thấp tầng cao cấp",
+    "meta": "Biệt thự trong khu đô thị Sunshine Legend City",
     "img": "assets/img/sunshine-legend-city-thaptang.jpg"
   },
   {
@@ -96,11 +96,11 @@ window.SITE_PROPERTIES = [
     "type": "Biệt thự",
     "name": "Biệt thự Alluvia City",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Từ 25,8 tỷ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 300,
-    "meta": "Biệt thự 200 - 435 m2",
+    "meta": "Biệt thự khoáng nóng Alluvia City",
     "img": "assets/img/alluvia-city-thaptang.jpg"
   },
   {
@@ -109,11 +109,11 @@ window.SITE_PROPERTIES = [
     "type": "Biệt thự",
     "name": "Biệt thự Vinhomes Ocean City",
     "addr": "Gia Lâm, Hà Nội",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "2.395 căn thấp tầng tại 4 phân khu",
+    "meta": "Biệt thự Vinhomes Ocean Park",
     "img": "assets/img/vinhomes-ocean-city.jpg"
   },
   {
@@ -122,11 +122,11 @@ window.SITE_PROPERTIES = [
     "type": "Biệt thự",
     "name": "Biệt thự Ecopark",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "Biệt thự vườn, biệt thự đảo và biệt thự Marina",
+    "meta": "Biệt thự sinh thái Ecopark",
     "img": "assets/img/ecopark-thaptang.jpg"
   },
   {
@@ -135,11 +135,11 @@ window.SITE_PROPERTIES = [
     "type": "Nhà phố",
     "name": "Nhà phố Sunshine Legend City",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "Townhouse/Boutique House trong Sunshine Legend City",
+    "meta": "Nhà phố trong đô thị Sunshine Legend City",
     "img": "assets/img/sunshine-legend-city-thaptang.jpg"
   },
   {
@@ -148,11 +148,11 @@ window.SITE_PROPERTIES = [
     "type": "Nhà phố",
     "name": "Nhà phố Alluvia City",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "17,5 - 23,3 tỷ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 120,
-    "meta": "Liền kề tiêu chuẩn 120 m2",
+    "meta": "Nhà phố Alluvia City",
     "img": "assets/img/alluvia-city-thaptang.jpg"
   },
   {
@@ -161,11 +161,11 @@ window.SITE_PROPERTIES = [
     "type": "Nhà phố",
     "name": "Nhà phố Vinhomes Ocean City",
     "addr": "Gia Lâm, Hà Nội",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "Liền kề - nhà phố trong đại đô thị 420 ha",
+    "meta": "Nhà phố Vinhomes Ocean Park",
     "img": "assets/img/vinhomes-ocean-city.jpg"
   },
   {
@@ -174,11 +174,11 @@ window.SITE_PROPERTIES = [
     "type": "Nhà phố",
     "name": "Nhà phố Ecopark",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "Nhà phố thương mại trong các phân khu Ecopark",
+    "meta": "Nhà phố trong khu đô thị Ecopark",
     "img": "assets/img/ecopark-thaptang.jpg"
   },
   {
@@ -187,11 +187,11 @@ window.SITE_PROPERTIES = [
     "type": "Thương mại",
     "name": "Shophouse Sunshine Legend City",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "Shophouse và tuyến phố thương mại view sông",
+    "meta": "Shophouse thương mại Sunshine Legend City",
     "img": "assets/img/sunshine-legend-city-thaptang.jpg"
   },
   {
@@ -200,11 +200,11 @@ window.SITE_PROPERTIES = [
     "type": "Thương mại",
     "name": "Shophouse Alluvia City",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "20 - 32,8 tỷ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 120,
-    "meta": "Shophouse 120 m2",
+    "meta": "Shophouse Alluvia City",
     "img": "assets/img/alluvia-city-thaptang.jpg"
   },
   {
@@ -213,11 +213,11 @@ window.SITE_PROPERTIES = [
     "type": "Thương mại",
     "name": "Shophouse Vinhomes Ocean City",
     "addr": "Gia Lâm, Hà Nội",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "Shophouse trong các phân khu thấp tầng",
+    "meta": "Shophouse Vinhomes Ocean Park",
     "img": "assets/img/vinhomes-ocean-city.jpg"
   },
   {
@@ -226,11 +226,11 @@ window.SITE_PROPERTIES = [
     "type": "Thương mại",
     "name": "Shophouse Ecopark",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "Shophouse và shop villa Ecopark",
+    "meta": "Shophouse thương mại Ecopark",
     "img": "assets/img/ecopark-thaptang.jpg"
   },
   {
@@ -238,12 +238,12 @@ window.SITE_PROPERTIES = [
     "slug": "dat-nen-hung-yen",
     "type": "Đất nền",
     "name": "Đất nền Tỉnh Hưng Yên",
-    "addr": "Văn Giang · Văn Lâm · Khoái Châu · Yên Mỹ",
-    "price": "Liên hệ",
+    "addr": "Hưng Yên",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "Đất nền pháp lý đầy đủ — nhiều diện tích & vị trí",
+    "meta": "Tư vấn đất nền khu vực Hưng Yên",
     "img": "assets/img/dat-nen-hung-yen.jpg"
   },
   {
@@ -251,12 +251,12 @@ window.SITE_PROPERTIES = [
     "slug": "dat-nen-phia-dong-ha-noi",
     "type": "Đất nền",
     "name": "Đất nền Khu vực phía Đông Hà Nội",
-    "addr": "Gia Lâm · Long Biên · Đông Anh · Văn Giang giáp ranh",
-    "price": "Liên hệ",
+    "addr": "Phía Đông Hà Nội",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "Đất nền dân cư & dự án — đa dạng diện tích",
+    "meta": "Tư vấn đất nền phía Đông Hà Nội",
     "img": "assets/img/dat-nen-hung-yen.jpg"
   },
   {
@@ -264,12 +264,12 @@ window.SITE_PROPERTIES = [
     "slug": "chuyen-nhuong",
     "type": "Chuyển nhượng",
     "name": "Dịch vụ chuyển nhượng BĐS",
-    "addr": "Hà Nội · Hưng Yên · Hải Phòng · Quảng Ninh · Bắc Ninh",
-    "price": "Liên hệ",
+    "addr": "Hà Nội - Hưng Yên",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
-    "meta": "Tư vấn chuyển nhượng · định giá · kết nối khách mua – khách bán",
+    "meta": "Dịch vụ hỗ trợ chuyển nhượng bất động sản",
     "img": "assets/img/chuyen-nhuong-bds.jpg"
   }
 ];

@@ -5,14 +5,14 @@
     "type": "Căn hộ",
     "name": "Sunshine Legend City",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/sunshine-legend-city-canho.jpg",
-    "meta": "Phân khu Legend - căn hộ cao cấp",
+    "meta": "Căn hộ cao cấp trong đô thị Sunshine Legend City",
     "title": "Sunshine Legend City | Hồng Nhung BĐS",
-    "description": "Sunshine Legend City tại Văn Giang, Hưng Yên. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Sunshine Legend City tại Văn Giang, Hưng Yên: cập nhật vị trí, quy mô khoảng 54 ha, phân khu, tiện ích, sản phẩm căn hộ và tư vấn bảng hàng mới nhất.",
     "hero": {
       "image": "assets/img/sunshine-legend-city-canho.jpg",
       "eyebrow": "Căn hộ",
@@ -37,12 +37,12 @@
       },
       {
         "label": "Tổng diện tích dự án",
-        "value": "54 ha",
+        "value": "Khoảng 54 ha",
         "muted": false
       },
       {
         "label": "Quy mô",
-        "value": "3 phân khu: Wonder Island, Legend, Riviera",
+        "value": "Căn hộ cao cấp, tháp thương mại - dịch vụ và tiện ích nội khu",
         "muted": false
       },
       {
@@ -54,6 +54,11 @@
         "label": "Dự kiến bàn giao",
         "value": "Dự kiến Quý 3 năm 2028",
         "muted": true
+      },
+      {
+        "label": "Pháp lý",
+        "value": "Kiểm tra theo từng sản phẩm và chính sách bán hàng",
+        "muted": false
       }
     ],
     "contactBox": {
@@ -65,7 +70,7 @@
           "muted": true
         },
         {
-          "label": "Số phòng ngủ",
+          "label": "Loại căn",
           "value": "Studio - 3PN, Duplex, Penthouse",
           "muted": true
         },
@@ -75,18 +80,23 @@
           "muted": true
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Phân khu",
+          "value": "Legend",
+          "muted": false
+        },
+        {
+          "label": "Tiện ích nổi bật",
+          "value": "Sky garden, sky pool, sky bar",
+          "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Sunshine Legend City</strong> tọa lạc tại <strong>Văn Giang, Hưng Yên</strong>. Dự án nằm tại điểm giao thoa phía Đông - Đông Nam Thủ đô, kết nối Ecopark, Vinhomes Ocean Park 1, 2, 3 và Alluvia.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Theo tài liệu đào tạo, Legend City có quy mô khoảng 54 ha, gồm ba phân khu Wonder Island, Legend và Riviera; sản phẩm gồm căn hộ cao cấp, thấp tầng xây thô hoàn thiện mặt ngoài, biệt thự, nhà phố và shophouse.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Phân khu Legend là tổ hợp tháp thương mại - dịch vụ, văn phòng và căn hộ cao cấp trong đại đô thị Sunshine Legend City.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Sunshine Legend City</strong> nằm tại Văn Giang, Hưng Yên, trong vùng giao thoa phía Đông - Đông Nam Hà Nội. Khu vực này hưởng lợi từ trục kết nối Ecopark, Vinhomes Ocean Park 1, 2, 3, Alluvia City và các tuyến cầu, vành đai đang hoàn thiện.</p>\n      <p>Với khách hàng ở Hà Nội, lợi thế lớn của dự án là bán kính di chuyển thuận tiện về trung tâm qua các hướng Thanh Trì, Vĩnh Tuy, Mễ Sở, Ngọc Hồi và các trục kết nối sang Gia Lâm - Long Biên.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Theo tài liệu dự án, Sunshine Legend City có quy mô khoảng <strong>54 ha</strong>, phát triển theo mô hình đô thị đa chức năng với ba phân khu chính: Wonder Island, Legend và Riviera.</p>\n      <p>Nhóm sản phẩm Căn hộ Sunshine Legend City nằm trong hệ sinh thái gồm căn hộ cao cấp, tháp thương mại - dịch vụ, văn phòng, biệt thự, nhà phố và shophouse. Căn hộ phù hợp với khách hàng tìm sản phẩm cao tầng trong khu đô thị mới, ưu tiên tiện ích nội khu và khả năng kết nối vùng phía Đông Hà Nội.</p>\n\n      <h2>Tiện ích và điểm nổi bật</h2>\n      <p>Dự án nhấn mạnh trải nghiệm sống ven sông, cảnh quan mặt nước, phố thương mại, trường học, trung tâm dịch vụ, sky garden, sky pool, sky bar, khu thể thao và các tiện ích giải trí ngoài trời.</p>\n      <p>Khi tư vấn, nên kiểm tra cụ thể từng tòa, từng phân khu, hướng nhìn, khoảng cách đến tiện ích, chính sách bán hàng và tiến độ pháp lý tại thời điểm khách quan tâm.</p>\n\n      <h2>Lưu ý tư vấn</h2>\n      <p>Các thông tin về giá, lịch bàn giao, pháp lý và mặt bằng căn cần đối chiếu theo bảng hàng mới nhất. Hồng Nhung BĐS có thể hỗ trợ lọc giỏ hàng theo ngân sách, mục tiêu ở thật hoặc đầu tư.</p>",
     "cta": {
       "title": "Nhận tư vấn chi tiết về Sunshine Legend City",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -95,14 +105,14 @@
     "type": "Căn hộ",
     "name": "Alumi - Alluvia City",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/alluvia-city-canho.jpg",
-    "meta": "Alumi Premium - 2.582 căn hộ",
+    "meta": "Căn hộ Alumi thuộc Alluvia City",
     "title": "Alumi - Alluvia City | Hồng Nhung BĐS",
-    "description": "Alumi - Alluvia City tại Văn Giang, Hưng Yên. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Alumi - Alluvia City: cập nhật quy mô Alluvia City 198,3 ha, chủ đầu tư Xuân Cầu Holdings, sản phẩm căn hộ, tiện ích khoáng nóng và giá bán tham khảo.",
     "hero": {
       "image": "assets/img/alluvia-city-canho.jpg",
       "eyebrow": "Căn hộ",
@@ -122,7 +132,7 @@
       },
       {
         "label": "Chủ đầu tư",
-        "value": "Công ty Cổ phần Xuân Cầu Holdings",
+        "value": "Xuân Cầu Holdings",
         "muted": false
       },
       {
@@ -132,51 +142,56 @@
       },
       {
         "label": "Quy mô",
-        "value": "12.133 căn hộ toàn dự án; Alumi Premium 2.582 căn",
+        "value": "Alumi Premium khoảng 2.582 căn; toàn đô thị 198,3 ha",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "16%",
+        "value": "Khoảng 16%",
         "muted": false
       },
       {
         "label": "Dự kiến bàn giao",
-        "value": "Quý II/2027 tại Alluvia Onsen",
+        "value": "2027 - 2032 theo từng phân khu",
+        "muted": false
+      },
+      {
+        "label": "Pháp lý",
+        "value": "Sở hữu lâu dài/không thời hạn theo từng sản phẩm",
         "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin căn hộ & Báo giá",
+      "heading": "Thông tin căn hộ Alumi & Báo giá",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "Đang cập nhật",
-          "muted": true
-        },
-        {
-          "label": "Số phòng ngủ",
-          "value": "Studio - 3PN, Duplex, Penthouse",
+          "label": "Loại căn",
+          "value": "Studio, 1PN+, 2PN, 2PN+, 3PN, Duplex, Penthouse",
           "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Phân khu",
+          "value": "Alumi Premium",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Tiện ích nổi bật",
+          "value": "Khoáng nóng, cảnh quan xanh, tiện ích đô thị",
+          "muted": false
+        },
+        {
+          "label": "Phù hợp",
+          "value": "Ở thật, đầu tư cho thuê, tích sản",
+          "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Alumi - Alluvia City</strong> tọa lạc tại <strong>Văn Giang, Hưng Yên</strong>. Dự án nằm trong khu vực phát triển phía Đông Hà Nội, có định hướng đô thị sinh thái khoáng nóng bên sông Hồng.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Alluvia City có tổng diện tích 198,3 ha, mật độ xây dựng 16%, gồm Alluvia Onsen, Alluvia Island, Alluvia Yacht và Alluvia Sunshine Marina; quy mô 2.718 căn thấp tầng và 12.133 căn hộ chung cư.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Tài liệu Alumi Premium ghi nhận 2.582 căn, gồm Studio, 1PN+, 2PN, 2PN+, 3PN, Duplex và Penthouse.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Alluvia City</strong> tọa lạc tại Văn Giang, Hưng Yên, kế cận các đô thị lớn phía Đông Hà Nội như Ecopark, Vinhomes Ocean Park và Sunshine Legend City.</p>\n      <p>Theo tài liệu dự án, từ Alluvia City có thể kết nối nhanh tới Ecopark, Vinhomes Ocean Park, Vành đai 2, trung tâm Hà Nội và sân bay Nội Bài qua hệ thống trục giao thông khu Đông.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Alluvia City có quy mô khoảng <strong>198,3 ha</strong>, mật độ xây dựng tham khảo khoảng 16%, được phát triển theo mô hình đô thị khoáng nóng và sinh thái ven sông.</p>\n      <p>Dự án được chia thành các phân khu như Alluvia Onsen, Alluvia Island, Alluvia Yacht và Alluvia Sunshine Marina. Cơ cấu sản phẩm gồm biệt thự, nhà phố, shophouse và căn hộ cao tầng.</p>\n\n      <h2>Thông tin sản phẩm</h2>\n      <p>Căn hộ Alumi - Alluvia City phù hợp với khách hàng muốn khai thác lợi thế đô thị mới có quy mô lớn, nhiều không gian xanh, tiện ích khoáng nóng và khả năng kết nối với cụm đô thị Văn Giang - Gia Lâm.</p>\n      <p>Theo tài liệu đào tạo, Alumi Premium có khoảng 2.582 căn với nhiều loại diện tích từ Studio đến Penthouse, phù hợp khách hàng muốn tiếp cận Alluvia City bằng dòng sản phẩm căn hộ.</p>\n\n      <h2>Lưu ý khi chọn sản phẩm</h2>\n      <p>Cần kiểm tra vị trí lô/căn, mặt đường, khoảng cách tới tiện ích, thời điểm bàn giao, điều kiện thanh toán và biên độ giá giữa các phân khu trước khi đặt cọc.</p>",
     "cta": {
       "title": "Nhận tư vấn chi tiết về Alumi - Alluvia City",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -185,14 +200,14 @@
     "type": "Căn hộ",
     "name": "Masteri Grand Coast",
     "addr": "Ocean City, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/masteri-grand-coast.jpg",
-    "meta": "The Wave - Masteri Collection tại Ocean City",
+    "meta": "Căn hộ cao cấp Masterise Homes tại Ocean City",
     "title": "Masteri Grand Coast | Hồng Nhung BĐS",
-    "description": "Masteri Grand Coast tại Ocean City, Hưng Yên. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Masteri Grand Coast: cập nhật quy mô 72.498 m2, 7 tòa 27 tầng, mật độ xây dựng khoảng 15,8%, hơn 180 tiện ích và loại căn hộ.",
     "hero": {
       "image": "assets/img/masteri-grand-coast.jpg",
       "eyebrow": "Căn hộ",
@@ -202,7 +217,7 @@
     "specs": [
       {
         "label": "Loại hình",
-        "value": "Căn hộ",
+        "value": "Căn hộ cao cấp",
         "muted": false
       },
       {
@@ -217,56 +232,61 @@
       },
       {
         "label": "Tổng diện tích dự án",
-        "value": "Đang cập nhật",
-        "muted": true
+        "value": "72.498 m2",
+        "muted": false
       },
       {
         "label": "Quy mô",
-        "value": "Phân khu The Wave thuộc Masteri Grand Coast",
+        "value": "7 tòa, 27 tầng, 2 tầng hầm",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "Đang cập nhật",
-        "muted": true
+        "value": "Khoảng 15,8%",
+        "muted": false
       },
       {
-        "label": "Dự kiến bàn giao",
-        "value": "Đang cập nhật",
-        "muted": true
+        "label": "Tiện ích",
+        "value": "Hơn 180 tiện ích nội khu",
+        "muted": false
+      },
+      {
+        "label": "Phân khu",
+        "value": "The Wave và The Sand",
+        "muted": false
       }
     ],
     "contactBox": {
       "heading": "Thông tin căn hộ & Báo giá",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Loại căn",
+          "value": "Studio, 1PN, 1PN+, 2PN, 2PN+, 3PN, 4PN, Duplex, Penthouse",
+          "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Studio - 3PN, Penthouse",
-          "muted": true
+          "label": "Số tầng",
+          "value": "27 tầng",
+          "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Tầng hầm",
+          "value": "2 tầng hầm",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Điểm mạnh",
+          "value": "Tiện ích lớn, thương hiệu Masterise Homes",
+          "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Masteri Grand Coast</strong> tọa lạc tại <strong>Ocean City, Hưng Yên</strong>. Dự án thuộc quần thể Ocean City, khu vực phía Đông Hà Nội - Hưng Yên.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Masteri Grand Coast là dấu ấn Masteri Collection tại Ocean City, với phân khu The Wave và định vị phong cách sống kết nối bên hồ tạo sóng.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Tài liệu hiện có chưa thể hiện rõ diện tích đất, mật độ xây dựng và lịch bàn giao chi tiết, nên các trường này được giữ ở trạng thái cập nhật.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Masteri Grand Coast</strong> nằm trong Ocean City, hưởng lợi từ hệ sinh thái đô thị phía Đông Hà Nội với hạ tầng, tiện ích, trường học, thương mại và cộng đồng cư dân đang phát triển nhanh.</p>\n      <p>Dự án phù hợp khách hàng muốn căn hộ cao cấp có thương hiệu vận hành rõ ràng, dễ tiếp cận tiện ích nội khu và khả năng khai thác cho thuê trong khu vực đô thị lớn.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Theo tài liệu dự án, Masteri Grand Coast có diện tích khoảng <strong>72.498 m2</strong>, gồm 7 tòa cao 27 tầng, 2 tầng hầm và mật độ xây dựng khoảng 15,8%.</p>\n      <p>Dự án được chia thành hai phân khu The Wave và The Sand, cung cấp nhiều dòng căn hộ từ Studio đến Penthouse, phù hợp nhiều ngân sách và mục tiêu sử dụng.</p>\n\n      <h2>Tiện ích nổi bật</h2>\n      <p>Dự án giới thiệu hơn 180 tiện ích nội khu, nhấn mạnh trải nghiệm sống nghỉ dưỡng, thể thao, cảnh quan, dịch vụ cư dân và kết nối tới hệ tiện ích của Ocean City.</p>\n      <p>Khi chọn căn, nên so sánh hướng view, tầng, khoảng cách tới thang máy, lõi tiện ích, chỗ đỗ xe và chính sách thanh toán tại từng thời điểm.</p>",
     "cta": {
       "title": "Nhận tư vấn chi tiết về Masteri Grand Coast",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -274,15 +294,15 @@
     "slug": "masteri-era-landmark",
     "type": "Căn hộ",
     "name": "Masteri Era Landmark",
-    "addr": "Ocean Park 3, Hưng Yên",
-    "price": "Liên hệ",
+    "addr": "Ocean City, Hưng Yên",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/masteri-era-landmark.jpg",
-    "meta": "Studio - 3PN, Penthouse",
+    "meta": "Căn hộ Masterise Homes tại Ocean Park 3",
     "title": "Masteri Era Landmark | Hồng Nhung BĐS",
-    "description": "Masteri Era Landmark tại Ocean Park 3, Hưng Yên. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Masteri Era Landmark: cập nhật quy mô 112.234 m2, 3 phân khu, 10 tòa 28 tầng, mật độ xây dựng khoảng 12,7%, 209 tiện ích.",
     "hero": {
       "image": "assets/img/masteri-era-landmark.jpg",
       "eyebrow": "Căn hộ",
@@ -292,12 +312,12 @@
     "specs": [
       {
         "label": "Loại hình",
-        "value": "Căn hộ",
+        "value": "Căn hộ cao cấp",
         "muted": false
       },
       {
         "label": "Vị trí",
-        "value": "Ocean Park 3, Hưng Yên",
+        "value": "Ocean City, Hưng Yên",
         "muted": false
       },
       {
@@ -312,51 +332,56 @@
       },
       {
         "label": "Quy mô",
-        "value": "03 phân khu / 10 tòa / 28 tầng",
+        "value": "3 phân khu, 10 tòa, 28 tầng",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "12,7%",
+        "value": "Khoảng 12,7%",
         "muted": false
       },
       {
-        "label": "Dự kiến bàn giao",
-        "value": "Đang cập nhật",
-        "muted": true
+        "label": "Tiện ích",
+        "value": "209 tiện ích",
+        "muted": false
+      },
+      {
+        "label": "Phân khu",
+        "value": "The Spark, The Flow, The Vision",
+        "muted": false
       }
     ],
     "contactBox": {
       "heading": "Thông tin căn hộ & Báo giá",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "Theo loại căn",
+          "label": "Loại căn",
+          "value": "Studio, 1PN+, 2PN, 2PN+, 3PN, Penthouse",
           "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Studio - 3PN, Penthouse",
+          "label": "Số tòa",
+          "value": "10 tòa",
           "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Số tầng",
+          "value": "28 tầng",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Điểm mạnh",
+          "value": "Quy mô lớn, tiện ích nhiều lớp",
+          "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Masteri Era Landmark</strong> tọa lạc tại <strong>Ocean Park 3, Hưng Yên</strong>. Dự án thuộc đại đô thị Ocean Park 3, nằm trong khu Đông Hà Nội - Hưng Yên.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Masteri Era Landmark có tổng diện tích 112.234 m2, gồm 3 phân khu, 10 tòa, 28 tầng, 2 tầng hầm và 209 tiện ích trong nhà - ngoài nhà.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Loại hình căn hộ gồm Studio, 1BR+, 2BR, 2BR+, 3BR và Penthouse; mật độ xây dựng trung bình khoảng 12,7%.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Masteri Era Landmark</strong> nằm trong Ocean City, khu vực phía Đông Hà Nội - Hưng Yên, thừa hưởng hệ sinh thái đô thị lớn và hạ tầng kết nối liên vùng.</p>\n      <p>Dự án phù hợp khách hàng cần sản phẩm căn hộ cao cấp trong một đại đô thị có quy hoạch đồng bộ, tiện ích rõ ràng và khả năng hình thành cộng đồng cư dân lớn.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Theo tài liệu dự án, Masteri Era Landmark có quy mô khoảng <strong>112.234 m2</strong>, gồm 3 phân khu, 10 tòa cao 28 tầng và 2 tầng hầm.</p>\n      <p>Mật độ xây dựng tham khảo khoảng 12,7%, phần lớn diện tích được dành cho giao thông nội khu, cảnh quan và tiện ích phục vụ cư dân.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Dự án có 209 tiện ích và ba phân khu The Spark, The Flow, The Vision. Cơ cấu căn gồm Studio, 1PN+, 2PN, 2PN+, 3PN và Penthouse.</p>\n      <p>Khi tư vấn, cần lọc căn theo nhu cầu ở thật, đầu tư cho thuê, ngân sách vốn tự có, tiến độ thanh toán và kỳ vọng dòng tiền.</p>",
     "cta": {
       "title": "Nhận tư vấn chi tiết về Masteri Era Landmark",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -365,14 +390,14 @@
     "type": "Căn hộ",
     "name": "Hanoi Seasons Garden",
     "addr": "Nguyễn Trãi, Thanh Xuân, Hà Nội",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 2,
     "baths": 2,
     "area": 80,
     "img": "assets/img/hanoi-seasons-garden.jpg",
-    "meta": "Nguyễn Trãi, Thanh Xuân - 10 tòa, 35-46 tầng",
+    "meta": "Căn hộ cao cấp tại trục Nguyễn Trãi",
     "title": "Hanoi Seasons Garden | Hồng Nhung BĐS",
-    "description": "Hanoi Seasons Garden — đại đô thị mới của Masterise Homes tại Nguyễn Trãi, quận Thanh Xuân, Hà Nội. 10 tòa 35–46 tầng, dự kiến bàn giao Quý 2/2029.",
+    "description": "Hanoi Seasons Garden: cập nhật vị trí Nguyễn Trãi, Thanh Xuân, quy mô 82.820 m2, 10 tòa 35-46 tầng, mật độ xây dựng 28,8%.",
     "hero": {
       "image": "assets/img/hanoi-seasons-garden.jpg",
       "eyebrow": "Căn hộ · Masterise Homes",
@@ -397,22 +422,27 @@
       },
       {
         "label": "Tổng diện tích dự án",
-        "value": "82.820 m²",
+        "value": "82.820 m2",
         "muted": false
       },
       {
         "label": "Quy mô",
-        "value": "10 tòa · 35–46 tầng · 3 tầng hầm",
+        "value": "10 tòa, 35 - 46 tầng, 3 tầng hầm",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "28,8%",
+        "value": "Khoảng 28,8%",
         "muted": false
       },
       {
-        "label": "Dự kiến bàn giao",
-        "value": "Quý 2/2029",
+        "label": "Kết nối",
+        "value": "Gần ga Thượng Đình và trục Vành đai 2.5",
+        "muted": false
+      },
+      {
+        "label": "Loại căn",
+        "value": "Studio đến Duplex Penthouse",
         "muted": false
       }
     ],
@@ -420,33 +450,33 @@
       "heading": "Thông tin căn hộ & Báo giá",
       "items": [
         {
-          "label": "Diện tích căn hộ",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Loại căn",
+          "value": "Studio, 1BR, 2BR, 3BR, 4BR, Duplex, Penthouse",
+          "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Studio - 3PN, Duplex, Penthouse",
-          "muted": true
+          "label": "Số tòa",
+          "value": "10 tòa",
+          "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Số tầng",
+          "value": "35 - 46 tầng",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Tháng 10/2026",
+          "label": "Lợi thế",
+          "value": "Vị trí nội đô Thanh Xuân",
           "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Hanoi Seasons Garden</strong> toạ lạc tại trục đường <strong>Nguyễn Trãi, quận Thanh Xuân, Hà Nội</strong> — khu vực di sản công nghiệp \"Cao Xà Lá\" (Cao su – Xà phòng – Thuốc lá) đang được tái thiết thành một trong những tổ hợp đô thị lõi lớn nhất Thủ đô.</p>\n      <p>Đây là <em>quỹ đất tái thiết quy mô lớn hiếm có</em> tại vùng lõi Hà Nội — vị trí kề cận mạng lưới hạ tầng giao thông trọng yếu: Vành đai 2, Vành đai 3, Vành đai 2,5 (đang hoàn thiện) và tuyến Metro Cát Linh – Hà Đông hiện hữu.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Hanoi Seasons Garden được phát triển bởi <strong>Masterise Homes</strong> — nhà phát triển bất động sản hàng hiệu đẳng cấp quốc tế, đứng sau các dự án biểu tượng như Grand Marina Sài Gòn, The Grand Hà Nội và chuỗi LUMIÈRE Series.</p>\n      <p>Dự án có quy mô <strong>10 toà cao 35–46 tầng</strong> với <strong>3 tầng hầm</strong>, tổng diện tích <strong>82.820 m²</strong>, mật độ xây dựng chỉ <strong>28,8%</strong> — phần lớn diện tích còn lại dành cho cảnh quan và tiện ích nội khu.</p>\n      <p>Sản phẩm căn hộ phong phú: Studio, 1BR, 1BR+, 1BR+ 1MR, 2BR, 2BR+ 1MR, 3BR + 1MR, 4BR, Duplex, Penthouse và Duplex Penthouse — đáp ứng đa dạng nhu cầu từ người độc thân, gia đình trẻ đến gia đình đa thế hệ.</p>\n      <p>Phân khu đầu tiên đang mở bán là <strong>LUMIÈRE Hanoi Seasons Garden – The Bloom</strong>: thiết kế kiến trúc bởi các đối tác hàng đầu thế giới, tiêu chuẩn bàn giao quốc tế (kính Low-E, sàn gỗ xương cá, điều hoà âm trần…), tiện ích trong nhà – ngoài trời đồng bộ với sảnh lễ tân thông tầng cao 6,5 m.</p>\n\n      <h2>Vị trí kết nối</h2>\n      <ul>\n        <li><strong>1 phút:</strong> Ga Thượng Đình, ĐH Khoa học Tự nhiên, ĐH KHXH&amp;NV, Vành đai 2,5 (đang hoàn thiện).</li>\n        <li><strong>2 phút:</strong> ĐH Hà Nội, Học viện An ninh Nhân dân, ĐH Kiến trúc Hà Nội.</li>\n        <li><strong>3 phút:</strong> Vành đai 2 – Vành đai 3, Trung tâm thương mại Mega Mall, Học viện Quân Y, BV Quân Y 103, ĐH Thăng Long.</li>\n        <li><strong>5 phút:</strong> Rạp chiếu phim Quốc gia, BV Đại học Y Hà Nội, Trung tâm Hội nghị Quốc gia.</li>\n        <li><strong>8 phút:</strong> BV Bạch Mai, Ga Cát Linh, Ga Yên Nghĩa.</li>\n        <li><strong>10 phút:</strong> Hồ Tây, Hồ Hoàn Kiếm, Vinhomes Smart City.</li>\n        <li><strong>30 phút:</strong> Sân bay quốc tế Nội Bài, Vinhomes Ocean City.</li>\n      </ul>\n\n      <h2>Giá trị nổi bật</h2>\n      <ul>\n        <li>Vị trí tâm điểm giao thương — quỹ đất tái thiết quy mô lớn hiếm có tại vùng lõi Thủ đô.</li>\n        <li>Tổ hợp <strong>LUMIÈRE</strong> quy mô nhất tại lõi trung tâm Hà Nội — dấu ấn vị thế dài hạn.</li>\n        <li>Thiết kế kiến trúc được tư vấn bởi đối tác hàng đầu thế giới — kết hợp di sản công nghiệp với kiến trúc hiện đại.</li>\n        <li>Tiêu chuẩn bàn giao đẳng cấp quốc tế với thiết bị thương hiệu cao cấp.</li>\n        <li>Hệ tiện ích đặc quyền: Family Pavilion, Vườn tĩnh tâm với tiểu cảnh thác nước, Khu skating, Vườn diệu kỳ, Business Lounge, Kid Club, Teen Club...</li>\n        <li>Vận hành quản lý theo tiêu chuẩn quốc tế bởi <strong>Masterise Property Management (MPM)</strong> và <strong>Masterise Hospitality &amp; Entertainment (MHE)</strong>.</li>\n        <li>Bảo chứng bởi <strong>Masterise Homes</strong> — nhà phát triển BĐS hàng hiệu (Marriott, JW Marriott, The Ritz-Carlton).</li>\n      </ul>\n\n      <h2>Pháp lý &amp; tiến độ</h2>\n      <p>Dự kiến <strong>ký Hợp đồng Mua bán tháng 10/2026</strong>. Tiến độ thanh toán linh hoạt chia thành nhiều đợt theo quý từ Q1/2027 đến Q1/2029. Dự kiến <strong>bàn giao Quý 2/2029</strong> theo tiêu chuẩn LUMIÈRE Series.</p>\n      <p>Chính sách hỗ trợ khách hàng (dự kiến): miễn phí quản lý <strong>24 tháng</strong> cho khách hàng mới, <strong>48 tháng</strong> cho cư dân Masterise Homes. Hỗ trợ vay 70% với chương trình HTLS 0% và ân hạn gốc.</p>\n      <p><em>* Thông tin pháp lý, tiến độ và chính sách áp dụng theo từng thời điểm ban hành của Chủ đầu tư. Liên hệ Hồng Nhung BĐS để nhận bảng giá, mặt bằng và chính sách chi tiết mới nhất.</em></p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Hanoi Seasons Garden</strong> nằm trên trục Nguyễn Trãi, Thanh Xuân, một trong những khu vực nội đô có mật độ tiện ích, trường đại học, thương mại và giao thông công cộng cao.</p>\n      <p>Vị trí này phù hợp khách hàng cần căn hộ ở thật trong nội thành, thuận tiện di chuyển tới trung tâm, khu Cầu Giấy, Hà Đông, Đống Đa và các trục vành đai.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Theo tài liệu dự án, Hanoi Seasons Garden có quy mô khoảng <strong>82.820 m2</strong>, gồm 10 tòa cao 35 - 46 tầng, 3 tầng hầm và mật độ xây dựng khoảng 28,8%.</p>\n      <p>Cơ cấu căn đa dạng từ Studio, 1BR, 1BR+, 2BR, 3BR, 4BR đến Duplex và Penthouse, phù hợp nhiều nhu cầu ở thật và tích sản nội đô.</p>\n\n      <h2>Điểm cần lưu ý</h2>\n      <p>Với dự án nội đô, cần xem kỹ mặt bằng căn, chỗ đỗ xe, mật độ thang máy, hướng nắng, tiếng ồn trục đường lớn và chính sách thanh toán tại thời điểm mua.</p>",
     "cta": {
       "title": "Nhận tư vấn chi tiết về Hanoi Seasons Garden",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá phân khu The Bloom, mặt bằng từng toà, chính sách thanh toán và lịch xem mô hình thực tế."
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -455,14 +485,14 @@
     "type": "Căn hộ",
     "name": "Chung cư Ecopark",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/ecopark-canho.jpg",
-    "meta": "Căn hộ trong KĐT Ecopark 500 ha",
+    "meta": "Căn hộ trong khu đô thị Ecopark",
     "title": "Chung cư Ecopark | Hồng Nhung BĐS",
-    "description": "Chung cư Ecopark tại Văn Giang, Hưng Yên. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Chung cư Ecopark: cập nhật vị trí Văn Giang, đô thị sinh thái quy mô lớn, tiện ích, sản phẩm căn hộ và lưu ý chọn căn.",
     "hero": {
       "image": "assets/img/ecopark-canho.jpg",
       "eyebrow": "Căn hộ",
@@ -482,61 +512,66 @@
       },
       {
         "label": "Chủ đầu tư",
-        "value": "Công ty Cổ phần Tập đoàn Ecopark",
+        "value": "Ecopark / VIHAJICO",
         "muted": false
       },
       {
         "label": "Tổng diện tích dự án",
-        "value": "500 ha",
+        "value": "Khoảng 500 ha",
         "muted": false
       },
       {
         "label": "Quy mô",
-        "value": "6 phân khu chính; 9 giai đoạn phát triển",
+        "value": "Căn hộ, penthouse và sản phẩm cao tầng trong đô thị sinh thái",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "Đang cập nhật",
-        "muted": true
+        "value": "Ưu tiên không gian xanh và mặt nước",
+        "muted": false
       },
       {
         "label": "Dự kiến bàn giao",
-        "value": "Phát triển từ 2008; nhiều phân khu đã vận hành",
+        "value": "Theo từng phân khu",
+        "muted": false
+      },
+      {
+        "label": "Pháp lý",
+        "value": "Kiểm tra theo từng sản phẩm",
         "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin sản phẩm & Báo giá",
+      "heading": "Thông tin căn hộ & Báo giá",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Loại căn",
+          "value": "1PN, 2PN, 3PN, Penthouse tùy phân khu",
+          "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Studio - 3PN,",
-          "muted": true
+          "label": "Môi trường sống",
+          "value": "Công viên, hồ nước, tiện ích cư dân",
+          "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Phù hợp",
+          "value": "Ở thật, cho thuê, tích sản",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Cần kiểm tra",
+          "value": "Phân khu, phí vận hành, tình trạng bàn giao",
+          "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Chung cư Ecopark</strong> tọa lạc tại <strong>Văn Giang, Hưng Yên</strong>. Khu đô thị trải dài theo sông Bắc Hưng Hải, thuộc Văn Giang, Hưng Yên và kết nối nhanh về trung tâm Hà Nội.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Ecopark có quy mô 500 ha, gồm nhiều phân khu phát triển theo giai đoạn như Rừng Cọ, Aquabay, Giáo dục, Quận Đảo, Sân golf và Sáng tạo; pháp lý sở hữu lâu dài.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Nhóm căn hộ gồm Rừng Cọ, Aquabay, Westbay, Sky Oasis, Sol Forest, Haven Park, Sky Forest và các sản phẩm cao tầng quanh sân golf.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Ecopark</strong> nằm tại Văn Giang, Hưng Yên, giáp khu Đông Hà Nội, kết nối thuận tiện tới Long Biên, Gia Lâm, trung tâm Hà Nội và các đô thị vệ tinh lân cận.</p>\n      <p>Dự án đã hình thành cộng đồng cư dân lớn, phù hợp với khách hàng ưu tiên môi trường sống xanh, tiện ích đồng bộ và hạ tầng dịch vụ sẵn có.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Ecopark là khu đô thị sinh thái quy mô lớn, phát triển theo nhiều giai đoạn với hệ thống công viên, hồ nước, trường học, thương mại, y tế, thể thao và các khu dân cư thấp tầng - cao tầng.</p>\n      <p>Nhóm sản phẩm gồm căn hộ, biệt thự, nhà phố, shophouse, penthouse và các sản phẩm thương mại - dịch vụ tùy từng phân khu.</p>\n\n      <h2>Thông tin sản phẩm</h2>\n      <p>Căn hộ Ecopark phù hợp với khách hàng muốn mua để ở, khai thác cho thuê hoặc tích lũy tài sản trong một đô thị đã vận hành ổn định.</p>\n      <p>Căn hộ Ecopark có lợi thế từ môi trường sống xanh, cộng đồng cư dân đã hình thành và nhiều lựa chọn phân khúc từ trung cấp đến cao cấp tùy phân khu.</p>\n\n      <h2>Lưu ý tư vấn</h2>\n      <p>Cần kiểm tra từng phân khu, tình trạng bàn giao, phí vận hành, pháp lý căn/lô, mặt tiền khai thác và dòng tiền cho thuê thực tế trước khi chốt phương án.</p>",
     "cta": {
-      "title": "Nhận tư vấn chi tiết về Chung cư Ecopark",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "title": "Nhận tư vấn chi tiết về chung cư Ecopark",
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -545,14 +580,14 @@
     "type": "Biệt thự",
     "name": "Biệt thự Sunshine Legend City",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/sunshine-legend-city-thaptang.jpg",
-    "meta": "Wonder Island/Riviera - thấp tầng cao cấp",
+    "meta": "Biệt thự trong khu đô thị Sunshine Legend City",
     "title": "Biệt thự Sunshine Legend City | Hồng Nhung BĐS",
-    "description": "Biệt thự Sunshine Legend City tại Văn Giang, Hưng Yên. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Biệt thự Sunshine Legend City: cập nhật vị trí Văn Giang, quy mô dự án, phân khu, tiện ích, pháp lý tham khảo và tư vấn bảng hàng mới nhất.",
     "hero": {
       "image": "assets/img/sunshine-legend-city-thaptang.jpg",
       "eyebrow": "Biệt thự",
@@ -577,56 +612,61 @@
       },
       {
         "label": "Tổng diện tích dự án",
-        "value": "54 ha",
+        "value": "Khoảng 54 ha",
         "muted": false
       },
       {
         "label": "Quy mô",
-        "value": "665 sản phẩm thấp tầng; Wonder Island & Riviera",
+        "value": "Biệt thự, nhà phố, shophouse và căn hộ cao cấp",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "Đang cập nhật",
+        "value": "Cập nhật theo từng phân khu",
         "muted": true
       },
       {
         "label": "Dự kiến bàn giao",
-        "value": "Đang cập nhật",
+        "value": "Cập nhật theo từng sản phẩm",
         "muted": true
+      },
+      {
+        "label": "Pháp lý",
+        "value": "Kiểm tra theo từng sản phẩm và chính sách bán hàng",
+        "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin sản phẩm & Báo giá",
+      "heading": "Thông tin biệt thự & Báo giá",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Loại sản phẩm",
+          "value": "Biệt thự",
+          "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Khu vực",
+          "value": "Wonder Island, Legend, Riviera",
+          "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Lợi thế",
+          "value": "Không gian riêng tư, cảnh quan mặt nước",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Phù hợp",
+          "value": "Ở thật cao cấp, tích sản dài hạn",
+          "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Biệt thự Sunshine Legend City</strong> tọa lạc tại <strong>Văn Giang, Hưng Yên</strong>. Dự án nằm tại điểm giao thoa phía Đông - Đông Nam Thủ đô, kết nối Ecopark, Vinhomes Ocean Park 1, 2, 3 và Alluvia.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Theo tài liệu đào tạo, Legend City có quy mô khoảng 54 ha, gồm ba phân khu Wonder Island, Legend và Riviera; sản phẩm gồm căn hộ cao cấp, thấp tầng xây thô hoàn thiện mặt ngoài, biệt thự, nhà phố và shophouse.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Bộ sưu tập Island Mansion, Grand Villa và các dòng biệt thự trong hai phân khu thấp tầng Wonder Island, Riviera.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Sunshine Legend City</strong> nằm tại Văn Giang, Hưng Yên, trong vùng giao thoa phía Đông - Đông Nam Hà Nội. Khu vực này hưởng lợi từ trục kết nối Ecopark, Vinhomes Ocean Park 1, 2, 3, Alluvia City và các tuyến cầu, vành đai đang hoàn thiện.</p>\n      <p>Với khách hàng ở Hà Nội, lợi thế lớn của dự án là bán kính di chuyển thuận tiện về trung tâm qua các hướng Thanh Trì, Vĩnh Tuy, Mễ Sở, Ngọc Hồi và các trục kết nối sang Gia Lâm - Long Biên.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Theo tài liệu dự án, Sunshine Legend City có quy mô khoảng <strong>54 ha</strong>, phát triển theo mô hình đô thị đa chức năng với ba phân khu chính: Wonder Island, Legend và Riviera.</p>\n      <p>Nhóm sản phẩm Biệt thự Sunshine Legend City nằm trong hệ sinh thái gồm căn hộ cao cấp, tháp thương mại - dịch vụ, văn phòng, biệt thự, nhà phố và shophouse. Dòng biệt thự hướng tới khách hàng cần không gian sống riêng tư, mật độ cư trú thấp hơn, cảnh quan đẹp và tiềm năng tăng giá khi hạ tầng khu Đông hoàn thiện.</p>\n\n      <h2>Tiện ích và điểm nổi bật</h2>\n      <p>Dự án nhấn mạnh trải nghiệm sống ven sông, cảnh quan mặt nước, phố thương mại, trường học, trung tâm dịch vụ, sky garden, sky pool, sky bar, khu thể thao và các tiện ích giải trí ngoài trời.</p>\n      <p>Khi tư vấn, nên kiểm tra cụ thể từng tòa, từng phân khu, hướng nhìn, khoảng cách đến tiện ích, chính sách bán hàng và tiến độ pháp lý tại thời điểm khách quan tâm.</p>\n\n      <h2>Lưu ý tư vấn</h2>\n      <p>Các thông tin về giá, lịch bàn giao, pháp lý và mặt bằng căn cần đối chiếu theo bảng hàng mới nhất. Hồng Nhung BĐS có thể hỗ trợ lọc giỏ hàng theo ngân sách, mục tiêu ở thật hoặc đầu tư.</p>",
     "cta": {
-      "title": "Nhận tư vấn chi tiết về Biệt thự Sunshine Legend City",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "title": "Nhận tư vấn chi tiết về biệt thự Sunshine Legend City",
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -635,14 +675,14 @@
     "type": "Biệt thự",
     "name": "Biệt thự Alluvia City",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Từ 25,8 tỷ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 300,
     "img": "assets/img/alluvia-city-thaptang.jpg",
-    "meta": "Biệt thự 200 - 435 m2",
+    "meta": "Biệt thự khoáng nóng Alluvia City",
     "title": "Biệt thự Alluvia City | Hồng Nhung BĐS",
-    "description": "Biệt thự Alluvia City tại Văn Giang, Hưng Yên. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Biệt thự Alluvia City: thông tin vị trí Văn Giang, quy mô 198,3 ha, chủ đầu tư Xuân Cầu Holdings, tiện ích khoáng nóng và giá tham khảo.",
     "hero": {
       "image": "assets/img/alluvia-city-thaptang.jpg",
       "eyebrow": "Biệt thự",
@@ -662,7 +702,7 @@
       },
       {
         "label": "Chủ đầu tư",
-        "value": "Công ty Cổ phần Xuân Cầu Holdings",
+        "value": "Xuân Cầu Holdings",
         "muted": false
       },
       {
@@ -672,51 +712,56 @@
       },
       {
         "label": "Quy mô",
-        "value": "2.718 căn thấp tầng; Alluvia Onsen 719 căn",
+        "value": "Biệt thự đơn lập, song lập, nhà phố và shophouse",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "16%",
+        "value": "Khoảng 16%",
         "muted": false
       },
       {
         "label": "Dự kiến bàn giao",
-        "value": "Dự kiến 2027 - 2032",
+        "value": "2027 - 2032 theo từng phân khu",
+        "muted": false
+      },
+      {
+        "label": "Pháp lý",
+        "value": "Sở hữu lâu dài/không thời hạn theo từng sản phẩm",
         "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin sản phẩm & Báo giá",
+      "heading": "Thông tin biệt thự & Báo giá",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "200 - 435 m2",
+          "label": "Loại sản phẩm",
+          "value": "Biệt thự đơn lập, song lập",
           "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Diện tích tham khảo",
+          "value": "Khoảng 300 m2 với dòng đơn lập",
+          "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Giá tham khảo tài liệu",
+          "value": "Khoảng 35 - 46 tỷ tùy vị trí",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đủ điều kiện ký HĐMB 11/2025",
+          "label": "Lợi thế",
+          "value": "Không gian riêng tư, tiện ích khoáng nóng",
           "muted": false
         }
       ],
       "priceLabel": "Giá",
-      "priceValue": "25,8 - 46 tỷ"
+      "priceValue": "Từ khoảng 35 tỷ theo tài liệu"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Biệt thự Alluvia City</strong> tọa lạc tại <strong>Văn Giang, Hưng Yên</strong>. Dự án nằm trong khu vực phát triển phía Đông Hà Nội, có định hướng đô thị sinh thái khoáng nóng bên sông Hồng.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Alluvia City có tổng diện tích 198,3 ha, mật độ xây dựng 16%, gồm Alluvia Onsen, Alluvia Island, Alluvia Yacht và Alluvia Sunshine Marina; quy mô 2.718 căn thấp tầng và 12.133 căn hộ chung cư.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Sản phẩm biệt thự gồm biệt thự song lập, biệt thự đơn lập và Onsen Villas; diện tích điển hình từ 200 m2 đến 435 m2, pháp lý sở hữu lâu dài.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Alluvia City</strong> tọa lạc tại Văn Giang, Hưng Yên, kế cận các đô thị lớn phía Đông Hà Nội như Ecopark, Vinhomes Ocean Park và Sunshine Legend City.</p>\n      <p>Theo tài liệu dự án, từ Alluvia City có thể kết nối nhanh tới Ecopark, Vinhomes Ocean Park, Vành đai 2, trung tâm Hà Nội và sân bay Nội Bài qua hệ thống trục giao thông khu Đông.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Alluvia City có quy mô khoảng <strong>198,3 ha</strong>, mật độ xây dựng tham khảo khoảng 16%, được phát triển theo mô hình đô thị khoáng nóng và sinh thái ven sông.</p>\n      <p>Dự án được chia thành các phân khu như Alluvia Onsen, Alluvia Island, Alluvia Yacht và Alluvia Sunshine Marina. Cơ cấu sản phẩm gồm biệt thự, nhà phố, shophouse và căn hộ cao tầng.</p>\n\n      <h2>Thông tin sản phẩm</h2>\n      <p>Biệt thự Alluvia City phù hợp với khách hàng muốn khai thác lợi thế đô thị mới có quy mô lớn, nhiều không gian xanh, tiện ích khoáng nóng và khả năng kết nối với cụm đô thị Văn Giang - Gia Lâm.</p>\n      <p>Dòng biệt thự phù hợp với khách hàng tìm sản phẩm thấp tầng quy mô lớn, ưu tiên nghỉ dưỡng, không gian riêng tư và giá trị tích sản dài hạn.</p>\n\n      <h2>Lưu ý khi chọn sản phẩm</h2>\n      <p>Cần kiểm tra vị trí lô/căn, mặt đường, khoảng cách tới tiện ích, thời điểm bàn giao, điều kiện thanh toán và biên độ giá giữa các phân khu trước khi đặt cọc.</p>",
     "cta": {
-      "title": "Nhận tư vấn chi tiết về Biệt thự Alluvia City",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "title": "Nhận tư vấn chi tiết về biệt thự Alluvia City",
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -725,14 +770,14 @@
     "type": "Biệt thự",
     "name": "Biệt thự Vinhomes Ocean City",
     "addr": "Gia Lâm, Hà Nội",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/vinhomes-ocean-city.jpg",
-    "meta": "2.395 căn thấp tầng tại 4 phân khu",
+    "meta": "Biệt thự Vinhomes Ocean Park",
     "title": "Biệt thự Vinhomes Ocean City | Hồng Nhung BĐS",
-    "description": "Biệt thự Vinhomes Ocean City tại Gia Lâm, Hà Nội. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Biệt thự Vinhomes Ocean City: cập nhật đại đô thị 420 ha, biển hồ, phân khu thấp tầng và lưu ý chọn biệt thự.",
     "hero": {
       "image": "assets/img/vinhomes-ocean-city.jpg",
       "eyebrow": "Biệt thự",
@@ -757,56 +802,61 @@
       },
       {
         "label": "Tổng diện tích dự án",
-        "value": "420 ha",
+        "value": "Khoảng 420 ha",
         "muted": false
       },
       {
         "label": "Quy mô",
-        "value": "66 tòa căn hộ; 2.395 căn thấp tầng",
+        "value": "Biệt thự tại Ngọc Trai, Hải Âu, San Hô, Sao Biển",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "19%",
+        "value": "Khoảng 19%",
         "muted": false
       },
       {
         "label": "Dự kiến bàn giao",
-        "value": "Đã bàn giao từng phần",
+        "value": "Theo từng phân khu",
+        "muted": false
+      },
+      {
+        "label": "Pháp lý",
+        "value": "Kiểm tra theo từng sản phẩm",
         "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin sản phẩm & Báo giá",
+      "heading": "Thông tin biệt thự & Báo giá",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Loại sản phẩm",
+          "value": "Biệt thự đơn lập, song lập tùy phân khu",
+          "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Phân khu",
+          "value": "Ngọc Trai, Hải Âu, San Hô, Sao Biển",
+          "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Lợi thế",
+          "value": "Biển hồ, tiện ích đồng bộ, cộng đồng cư dân",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Cần kiểm tra",
+          "value": "Hướng, view hồ, hoàn thiện, pháp lý",
+          "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Biệt thự Vinhomes Ocean City</strong> tọa lạc tại <strong>Gia Lâm, Hà Nội</strong>. Đại đô thị nằm giữa quốc lộ 5A và 5B, thuộc Dương Xá, Kiêu Kỵ, Đa Tốn và một phần Trâu Quỳ, kết nối thuận tiện về trung tâm Hà Nội.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Vinhomes Ocean Park có quy mô 420 ha, mật độ xây dựng khoảng 19%, hơn 117 ha cây xanh và mặt nước; quy hoạch khoảng 90.000 cư dân, 66 tòa căn hộ và 2.395 căn thấp tầng.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Sản phẩm thấp tầng gồm biệt thự, liền kề và shophouse tại các phân khu Ngọc Trai, Hải Âu, San Hô và Sao Biển.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Vinhomes Ocean Park</strong> nằm tại Gia Lâm, Hà Nội, thuộc trục phát triển phía Đông Thủ đô, kết nối Long Biên, trung tâm Hà Nội, Hưng Yên và Hải Phòng.</p>\n      <p>Dự án hưởng lợi từ hệ thống cầu, quốc lộ, cao tốc và các tuyến vành đai, phù hợp với khách hàng cần môi trường sống đồng bộ nhưng vẫn kết nối được khu trung tâm.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Vinhomes Ocean Park có quy mô khoảng <strong>420 ha</strong>, nổi bật với biển hồ nước mặn 6,1 ha, hồ trung tâm 24,5 ha, hệ tiện ích VinUni, Vinschool, Vincom Mega Mall, khu BBQ, thể thao và cảnh quan nội khu.</p>\n      <p>Nhóm thấp tầng của dự án gồm các phân khu như Ngọc Trai, Hải Âu, San Hô và Sao Biển; bên cạnh đó là các cụm căn hộ cao tầng phục vụ nhu cầu ở thật và cho thuê.</p>\n\n      <h2>Thông tin sản phẩm</h2>\n      <p>Biệt thự Vinhomes Ocean City phù hợp với khách hàng muốn sở hữu bất động sản trong một đại đô thị đã hình thành cộng đồng cư dân, có tiện ích vận hành thực tế và khả năng khai thác cho thuê.</p>\n      <p>Biệt thự phù hợp với khách hàng tìm không gian sống cao cấp trong đại đô thị đã có tiện ích, trường học, thương mại và cộng đồng cư dân quy mô lớn.</p>\n\n      <h2>Lưu ý tư vấn</h2>\n      <p>Nên so sánh giá theo phân khu, hướng nhà, khoảng cách đến hồ, trường học, trung tâm thương mại và tình trạng hoàn thiện trước khi ra quyết định.</p>",
     "cta": {
-      "title": "Nhận tư vấn chi tiết về Biệt thự Vinhomes Ocean City",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "title": "Nhận tư vấn chi tiết về biệt thự Vinhomes Ocean City",
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -815,14 +865,14 @@
     "type": "Biệt thự",
     "name": "Biệt thự Ecopark",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/ecopark-thaptang.jpg",
-    "meta": "Biệt thự vườn, biệt thự đảo và biệt thự Marina",
+    "meta": "Biệt thự sinh thái Ecopark",
     "title": "Biệt thự Ecopark | Hồng Nhung BĐS",
-    "description": "Biệt thự Ecopark tại Văn Giang, Hưng Yên. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Biệt thự Ecopark: thông tin vị trí, đô thị sinh thái, loại biệt thự, tiện ích và lưu ý chọn sản phẩm thấp tầng.",
     "hero": {
       "image": "assets/img/ecopark-thaptang.jpg",
       "eyebrow": "Biệt thự",
@@ -842,61 +892,66 @@
       },
       {
         "label": "Chủ đầu tư",
-        "value": "Công ty Cổ phần Tập đoàn Ecopark",
+        "value": "Ecopark / VIHAJICO",
         "muted": false
       },
       {
         "label": "Tổng diện tích dự án",
-        "value": "500 ha",
+        "value": "Khoảng 500 ha",
         "muted": false
       },
       {
         "label": "Quy mô",
-        "value": "6 phân khu chính; 9 giai đoạn phát triển",
+        "value": "Biệt thự sân vườn, biệt thự đảo và sản phẩm thấp tầng",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "Đang cập nhật",
-        "muted": true
+        "value": "Ưu tiên không gian xanh và mặt nước",
+        "muted": false
       },
       {
         "label": "Dự kiến bàn giao",
-        "value": "Phát triển từ 2008; nhiều phân khu đã vận hành",
+        "value": "Theo từng phân khu",
+        "muted": false
+      },
+      {
+        "label": "Pháp lý",
+        "value": "Kiểm tra theo từng sản phẩm",
         "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin sản phẩm & Báo giá",
+      "heading": "Thông tin biệt thự & Báo giá",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Loại sản phẩm",
+          "value": "Biệt thự sân vườn, biệt thự đảo tùy phân khu",
+          "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Lợi thế",
+          "value": "Không gian xanh, riêng tư, cộng đồng cư dân",
+          "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Phù hợp",
+          "value": "Ở thật cao cấp, nghỉ dưỡng cuối tuần, tích sản",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Cần kiểm tra",
+          "value": "Diện tích đất, hướng, cảnh quan, pháp lý",
+          "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Biệt thự Ecopark</strong> tọa lạc tại <strong>Văn Giang, Hưng Yên</strong>. Khu đô thị trải dài theo sông Bắc Hưng Hải, thuộc Văn Giang, Hưng Yên và kết nối nhanh về trung tâm Hà Nội.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Ecopark có quy mô 500 ha, gồm nhiều phân khu phát triển theo giai đoạn như Rừng Cọ, Aquabay, Giáo dục, Quận Đảo, Sân golf và Sáng tạo; pháp lý sở hữu lâu dài.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Các dòng biệt thự nổi bật gồm Vườn Tùng, Vườn Mai, Park River, Marina, Mimosa và biệt thự đảo Ecopark Grand.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Ecopark</strong> nằm tại Văn Giang, Hưng Yên, giáp khu Đông Hà Nội, kết nối thuận tiện tới Long Biên, Gia Lâm, trung tâm Hà Nội và các đô thị vệ tinh lân cận.</p>\n      <p>Dự án đã hình thành cộng đồng cư dân lớn, phù hợp với khách hàng ưu tiên môi trường sống xanh, tiện ích đồng bộ và hạ tầng dịch vụ sẵn có.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Ecopark là khu đô thị sinh thái quy mô lớn, phát triển theo nhiều giai đoạn với hệ thống công viên, hồ nước, trường học, thương mại, y tế, thể thao và các khu dân cư thấp tầng - cao tầng.</p>\n      <p>Nhóm sản phẩm gồm căn hộ, biệt thự, nhà phố, shophouse, penthouse và các sản phẩm thương mại - dịch vụ tùy từng phân khu.</p>\n\n      <h2>Thông tin sản phẩm</h2>\n      <p>Biệt thự Ecopark phù hợp với khách hàng muốn mua để ở, khai thác cho thuê hoặc tích lũy tài sản trong một đô thị đã vận hành ổn định.</p>\n      <p>Biệt thự Ecopark phù hợp khách hàng ưu tiên không gian xanh, mật độ thấp, môi trường sống riêng tư và giá trị tài sản trong khu đô thị đã vận hành ổn định.</p>\n\n      <h2>Lưu ý tư vấn</h2>\n      <p>Cần kiểm tra từng phân khu, tình trạng bàn giao, phí vận hành, pháp lý căn/lô, mặt tiền khai thác và dòng tiền cho thuê thực tế trước khi chốt phương án.</p>",
     "cta": {
-      "title": "Nhận tư vấn chi tiết về Biệt thự Ecopark",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "title": "Nhận tư vấn chi tiết về biệt thự Ecopark",
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -905,14 +960,14 @@
     "type": "Nhà phố",
     "name": "Nhà phố Sunshine Legend City",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/sunshine-legend-city-thaptang.jpg",
-    "meta": "Townhouse/Boutique House trong Sunshine Legend City",
+    "meta": "Nhà phố trong đô thị Sunshine Legend City",
     "title": "Nhà phố Sunshine Legend City | Hồng Nhung BĐS",
-    "description": "Nhà phố Sunshine Legend City tại Văn Giang, Hưng Yên. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Nhà phố Sunshine Legend City: thông tin vị trí, quy mô đô thị, sản phẩm nhà phố, tiện ích và tư vấn giá bán theo bảng hàng mới.",
     "hero": {
       "image": "assets/img/sunshine-legend-city-thaptang.jpg",
       "eyebrow": "Nhà phố",
@@ -937,56 +992,61 @@
       },
       {
         "label": "Tổng diện tích dự án",
-        "value": "54 ha",
+        "value": "Khoảng 54 ha",
         "muted": false
       },
       {
         "label": "Quy mô",
-        "value": "665 sản phẩm thấp tầng; Wonder Island & Riviera",
+        "value": "Nhà phố, shophouse, biệt thự và căn hộ cao cấp",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "Đang cập nhật",
+        "value": "Cập nhật theo từng phân khu",
         "muted": true
       },
       {
         "label": "Dự kiến bàn giao",
-        "value": "Đang cập nhật",
+        "value": "Cập nhật theo từng sản phẩm",
         "muted": true
+      },
+      {
+        "label": "Pháp lý",
+        "value": "Kiểm tra theo từng sản phẩm và chính sách bán hàng",
+        "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin sản phẩm & Báo giá",
+      "heading": "Thông tin nhà phố & Báo giá",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Loại sản phẩm",
+          "value": "Nhà phố",
+          "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Khu vực",
+          "value": "Các trục nội khu theo từng phân khu",
+          "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Lợi thế",
+          "value": "Vừa ở vừa kinh doanh tùy vị trí",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Phù hợp",
+          "value": "Tích sản, kinh doanh, cho thuê",
+          "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Nhà phố Sunshine Legend City</strong> tọa lạc tại <strong>Văn Giang, Hưng Yên</strong>. Dự án nằm tại điểm giao thoa phía Đông - Đông Nam Thủ đô, kết nối Ecopark, Vinhomes Ocean Park 1, 2, 3 và Alluvia.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Theo tài liệu đào tạo, Legend City có quy mô khoảng 54 ha, gồm ba phân khu Wonder Island, Legend và Riviera; sản phẩm gồm căn hộ cao cấp, thấp tầng xây thô hoàn thiện mặt ngoài, biệt thự, nhà phố và shophouse.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Các dòng Boutique House và Townhouse nằm trong bộ sưu tập thấp tầng, khai thác lợi thế đại lộ, tuyến phố ven sông và kết nối vùng.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Sunshine Legend City</strong> nằm tại Văn Giang, Hưng Yên, trong vùng giao thoa phía Đông - Đông Nam Hà Nội. Khu vực này hưởng lợi từ trục kết nối Ecopark, Vinhomes Ocean Park 1, 2, 3, Alluvia City và các tuyến cầu, vành đai đang hoàn thiện.</p>\n      <p>Với khách hàng ở Hà Nội, lợi thế lớn của dự án là bán kính di chuyển thuận tiện về trung tâm qua các hướng Thanh Trì, Vĩnh Tuy, Mễ Sở, Ngọc Hồi và các trục kết nối sang Gia Lâm - Long Biên.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Theo tài liệu dự án, Sunshine Legend City có quy mô khoảng <strong>54 ha</strong>, phát triển theo mô hình đô thị đa chức năng với ba phân khu chính: Wonder Island, Legend và Riviera.</p>\n      <p>Nhóm sản phẩm Nhà phố Sunshine Legend City nằm trong hệ sinh thái gồm căn hộ cao cấp, tháp thương mại - dịch vụ, văn phòng, biệt thự, nhà phố và shophouse. Nhà phố phù hợp với khách hàng cần tài sản thấp tầng có khả năng sử dụng linh hoạt, vừa ở, vừa khai thác thương mại hoặc cho thuê khi cộng đồng cư dân hình thành.</p>\n\n      <h2>Tiện ích và điểm nổi bật</h2>\n      <p>Dự án nhấn mạnh trải nghiệm sống ven sông, cảnh quan mặt nước, phố thương mại, trường học, trung tâm dịch vụ, sky garden, sky pool, sky bar, khu thể thao và các tiện ích giải trí ngoài trời.</p>\n      <p>Khi tư vấn, nên kiểm tra cụ thể từng tòa, từng phân khu, hướng nhìn, khoảng cách đến tiện ích, chính sách bán hàng và tiến độ pháp lý tại thời điểm khách quan tâm.</p>\n\n      <h2>Lưu ý tư vấn</h2>\n      <p>Các thông tin về giá, lịch bàn giao, pháp lý và mặt bằng căn cần đối chiếu theo bảng hàng mới nhất. Hồng Nhung BĐS có thể hỗ trợ lọc giỏ hàng theo ngân sách, mục tiêu ở thật hoặc đầu tư.</p>",
     "cta": {
-      "title": "Nhận tư vấn chi tiết về Nhà phố Sunshine Legend City",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "title": "Nhận tư vấn chi tiết về nhà phố Sunshine Legend City",
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -995,14 +1055,14 @@
     "type": "Nhà phố",
     "name": "Nhà phố Alluvia City",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "17,5 - 23,3 tỷ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 120,
     "img": "assets/img/alluvia-city-thaptang.jpg",
-    "meta": "Liền kề tiêu chuẩn 120 m2",
+    "meta": "Nhà phố Alluvia City",
     "title": "Nhà phố Alluvia City | Hồng Nhung BĐS",
-    "description": "Nhà phố Alluvia City tại Văn Giang, Hưng Yên. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Nhà phố Alluvia City: cập nhật vị trí, quy mô đô thị 198,3 ha, loại sản phẩm, giá tham khảo và lưu ý chọn lô nhà phố.",
     "hero": {
       "image": "assets/img/alluvia-city-thaptang.jpg",
       "eyebrow": "Nhà phố",
@@ -1022,7 +1082,7 @@
       },
       {
         "label": "Chủ đầu tư",
-        "value": "Công ty Cổ phần Xuân Cầu Holdings",
+        "value": "Xuân Cầu Holdings",
         "muted": false
       },
       {
@@ -1032,51 +1092,56 @@
       },
       {
         "label": "Quy mô",
-        "value": "Liền kề trong các phân khu Alluvia Onsen, Island, Yacht",
+        "value": "Nhà phố, biệt thự, shophouse và căn hộ cao tầng",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "16%",
+        "value": "Khoảng 16%",
         "muted": false
       },
       {
         "label": "Dự kiến bàn giao",
-        "value": "Dự kiến 2027 - 2032",
+        "value": "2027 - 2032 theo từng phân khu",
+        "muted": false
+      },
+      {
+        "label": "Pháp lý",
+        "value": "Sở hữu lâu dài/không thời hạn theo từng sản phẩm",
         "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin sản phẩm & Báo giá",
+      "heading": "Thông tin nhà phố & Báo giá",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "120 m2",
+          "label": "Loại sản phẩm",
+          "value": "Nhà phố thấp tầng",
           "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Diện tích tham khảo",
+          "value": "Khoảng 120 m2",
+          "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Giá tham khảo tài liệu",
+          "value": "Khoảng 17,5 - 23,3 tỷ",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đủ điều kiện ký HĐMB 11/2025",
+          "label": "Phù hợp",
+          "value": "Ở thật, kinh doanh nhỏ, tích sản",
           "muted": false
         }
       ],
       "priceLabel": "Giá",
-      "priceValue": "17,5 - 23,3 tỷ"
+      "priceValue": "Từ khoảng 17,5 tỷ theo tài liệu"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Nhà phố Alluvia City</strong> tọa lạc tại <strong>Văn Giang, Hưng Yên</strong>. Dự án nằm trong khu vực phát triển phía Đông Hà Nội, có định hướng đô thị sinh thái khoáng nóng bên sông Hồng.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Alluvia City có tổng diện tích 198,3 ha, mật độ xây dựng 16%, gồm Alluvia Onsen, Alluvia Island, Alluvia Yacht và Alluvia Sunshine Marina; quy mô 2.718 căn thấp tầng và 12.133 căn hộ chung cư.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Dòng liền kề tiêu chuẩn có diện tích tối thiểu 120 m2, phù hợp nhu cầu ở và tích lũy tài sản trong giai đoạn đầu Alluvia Onsen.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Alluvia City</strong> tọa lạc tại Văn Giang, Hưng Yên, kế cận các đô thị lớn phía Đông Hà Nội như Ecopark, Vinhomes Ocean Park và Sunshine Legend City.</p>\n      <p>Theo tài liệu dự án, từ Alluvia City có thể kết nối nhanh tới Ecopark, Vinhomes Ocean Park, Vành đai 2, trung tâm Hà Nội và sân bay Nội Bài qua hệ thống trục giao thông khu Đông.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Alluvia City có quy mô khoảng <strong>198,3 ha</strong>, mật độ xây dựng tham khảo khoảng 16%, được phát triển theo mô hình đô thị khoáng nóng và sinh thái ven sông.</p>\n      <p>Dự án được chia thành các phân khu như Alluvia Onsen, Alluvia Island, Alluvia Yacht và Alluvia Sunshine Marina. Cơ cấu sản phẩm gồm biệt thự, nhà phố, shophouse và căn hộ cao tầng.</p>\n\n      <h2>Thông tin sản phẩm</h2>\n      <p>Nhà phố Alluvia City phù hợp với khách hàng muốn khai thác lợi thế đô thị mới có quy mô lớn, nhiều không gian xanh, tiện ích khoáng nóng và khả năng kết nối với cụm đô thị Văn Giang - Gia Lâm.</p>\n      <p>Nhà phố phù hợp khách hàng muốn tài sản thấp tầng trong đô thị mới, có thể linh hoạt ở, cho thuê hoặc khai thác kinh doanh theo từng trục đường.</p>\n\n      <h2>Lưu ý khi chọn sản phẩm</h2>\n      <p>Cần kiểm tra vị trí lô/căn, mặt đường, khoảng cách tới tiện ích, thời điểm bàn giao, điều kiện thanh toán và biên độ giá giữa các phân khu trước khi đặt cọc.</p>",
     "cta": {
-      "title": "Nhận tư vấn chi tiết về Nhà phố Alluvia City",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "title": "Nhận tư vấn chi tiết về nhà phố Alluvia City",
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -1085,14 +1150,14 @@
     "type": "Nhà phố",
     "name": "Nhà phố Vinhomes Ocean City",
     "addr": "Gia Lâm, Hà Nội",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/vinhomes-ocean-city.jpg",
-    "meta": "Liền kề - nhà phố trong đại đô thị 420 ha",
+    "meta": "Nhà phố Vinhomes Ocean Park",
     "title": "Nhà phố Vinhomes Ocean City | Hồng Nhung BĐS",
-    "description": "Nhà phố Vinhomes Ocean City tại Gia Lâm, Hà Nội. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Nhà phố Vinhomes Ocean City: cập nhật vị trí Gia Lâm, đại đô thị biển hồ, sản phẩm thấp tầng và lưu ý chọn căn.",
     "hero": {
       "image": "assets/img/vinhomes-ocean-city.jpg",
       "eyebrow": "Nhà phố",
@@ -1117,56 +1182,61 @@
       },
       {
         "label": "Tổng diện tích dự án",
-        "value": "420 ha",
+        "value": "Khoảng 420 ha",
         "muted": false
       },
       {
         "label": "Quy mô",
-        "value": "66 tòa căn hộ; 2.395 căn thấp tầng",
+        "value": "Nhà phố thấp tầng trong các phân khu Vinhomes Ocean Park",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "19%",
+        "value": "Khoảng 19%",
         "muted": false
       },
       {
         "label": "Dự kiến bàn giao",
-        "value": "Đã bàn giao từng phần",
+        "value": "Theo từng phân khu",
+        "muted": false
+      },
+      {
+        "label": "Pháp lý",
+        "value": "Kiểm tra theo từng sản phẩm",
         "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin sản phẩm & Báo giá",
+      "heading": "Thông tin nhà phố & Báo giá",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Loại sản phẩm",
+          "value": "Nhà phố thấp tầng",
+          "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Lợi thế",
+          "value": "Ở thật, cho thuê, kinh doanh theo vị trí",
+          "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Tiện ích",
+          "value": "Biển hồ, VinUni, Vinschool, Vincom Mega Mall",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Cần kiểm tra",
+          "value": "Mặt đường, hướng, tình trạng hoàn thiện",
+          "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Nhà phố Vinhomes Ocean City</strong> tọa lạc tại <strong>Gia Lâm, Hà Nội</strong>. Đại đô thị nằm giữa quốc lộ 5A và 5B, thuộc Dương Xá, Kiêu Kỵ, Đa Tốn và một phần Trâu Quỳ, kết nối thuận tiện về trung tâm Hà Nội.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Vinhomes Ocean Park có quy mô 420 ha, mật độ xây dựng khoảng 19%, hơn 117 ha cây xanh và mặt nước; quy hoạch khoảng 90.000 cư dân, 66 tòa căn hộ và 2.395 căn thấp tầng.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Nhà phố và liền kề nằm trong hệ thấp tầng của Vinhomes Ocean Park, hưởng lợi từ hệ sinh thái tiện ích biển hồ, trường học, bệnh viện và thương mại.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Vinhomes Ocean Park</strong> nằm tại Gia Lâm, Hà Nội, thuộc trục phát triển phía Đông Thủ đô, kết nối Long Biên, trung tâm Hà Nội, Hưng Yên và Hải Phòng.</p>\n      <p>Dự án hưởng lợi từ hệ thống cầu, quốc lộ, cao tốc và các tuyến vành đai, phù hợp với khách hàng cần môi trường sống đồng bộ nhưng vẫn kết nối được khu trung tâm.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Vinhomes Ocean Park có quy mô khoảng <strong>420 ha</strong>, nổi bật với biển hồ nước mặn 6,1 ha, hồ trung tâm 24,5 ha, hệ tiện ích VinUni, Vinschool, Vincom Mega Mall, khu BBQ, thể thao và cảnh quan nội khu.</p>\n      <p>Nhóm thấp tầng của dự án gồm các phân khu như Ngọc Trai, Hải Âu, San Hô và Sao Biển; bên cạnh đó là các cụm căn hộ cao tầng phục vụ nhu cầu ở thật và cho thuê.</p>\n\n      <h2>Thông tin sản phẩm</h2>\n      <p>Nhà phố Vinhomes Ocean City phù hợp với khách hàng muốn sở hữu bất động sản trong một đại đô thị đã hình thành cộng đồng cư dân, có tiện ích vận hành thực tế và khả năng khai thác cho thuê.</p>\n      <p>Nhà phố phù hợp khách hàng muốn tài sản thấp tầng trong đô thị lớn, có thể sử dụng để ở, cho thuê hoặc kinh doanh tùy trục đường và phân khu.</p>\n\n      <h2>Lưu ý tư vấn</h2>\n      <p>Nên so sánh giá theo phân khu, hướng nhà, khoảng cách đến hồ, trường học, trung tâm thương mại và tình trạng hoàn thiện trước khi ra quyết định.</p>",
     "cta": {
-      "title": "Nhận tư vấn chi tiết về Nhà phố Vinhomes Ocean City",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "title": "Nhận tư vấn chi tiết về nhà phố Vinhomes Ocean City",
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -1175,14 +1245,14 @@
     "type": "Nhà phố",
     "name": "Nhà phố Ecopark",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/ecopark-thaptang.jpg",
-    "meta": "Nhà phố thương mại trong các phân khu Ecopark",
+    "meta": "Nhà phố trong khu đô thị Ecopark",
     "title": "Nhà phố Ecopark | Hồng Nhung BĐS",
-    "description": "Nhà phố Ecopark tại Văn Giang, Hưng Yên. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Nhà phố Ecopark: cập nhật vị trí, tiềm năng khai thác, tiện ích đô thị và lưu ý kiểm tra trước khi mua.",
     "hero": {
       "image": "assets/img/ecopark-thaptang.jpg",
       "eyebrow": "Nhà phố",
@@ -1202,61 +1272,66 @@
       },
       {
         "label": "Chủ đầu tư",
-        "value": "Công ty Cổ phần Tập đoàn Ecopark",
+        "value": "Ecopark / VIHAJICO",
         "muted": false
       },
       {
         "label": "Tổng diện tích dự án",
-        "value": "500 ha",
+        "value": "Khoảng 500 ha",
         "muted": false
       },
       {
         "label": "Quy mô",
-        "value": "6 phân khu chính; 9 giai đoạn phát triển",
+        "value": "Nhà phố thấp tầng trong các phân khu Ecopark",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "Đang cập nhật",
-        "muted": true
+        "value": "Ưu tiên không gian xanh và mặt nước",
+        "muted": false
       },
       {
         "label": "Dự kiến bàn giao",
-        "value": "Phát triển từ 2008; nhiều phân khu đã vận hành",
+        "value": "Theo từng phân khu",
+        "muted": false
+      },
+      {
+        "label": "Pháp lý",
+        "value": "Kiểm tra theo từng sản phẩm",
         "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin sản phẩm & Báo giá",
+      "heading": "Thông tin nhà phố & Báo giá",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Loại sản phẩm",
+          "value": "Nhà phố thấp tầng",
+          "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Lợi thế",
+          "value": "Ở thật, cho thuê, khai thác thương mại nhỏ",
+          "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Cần kiểm tra",
+          "value": "Mặt đường, dòng cư dân, tình trạng hoàn thiện",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Phù hợp",
+          "value": "Gia đình, nhà đầu tư tích sản",
+          "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Nhà phố Ecopark</strong> tọa lạc tại <strong>Văn Giang, Hưng Yên</strong>. Khu đô thị trải dài theo sông Bắc Hưng Hải, thuộc Văn Giang, Hưng Yên và kết nối nhanh về trung tâm Hà Nội.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Ecopark có quy mô 500 ha, gồm nhiều phân khu phát triển theo giai đoạn như Rừng Cọ, Aquabay, Giáo dục, Quận Đảo, Sân golf và Sáng tạo; pháp lý sở hữu lâu dài.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Nhà phố xuất hiện tại Phố Trúc, Phố Cúc, Thủy Nguyên, Thảo Nguyên, Park River và các giai đoạn phát triển sau.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Ecopark</strong> nằm tại Văn Giang, Hưng Yên, giáp khu Đông Hà Nội, kết nối thuận tiện tới Long Biên, Gia Lâm, trung tâm Hà Nội và các đô thị vệ tinh lân cận.</p>\n      <p>Dự án đã hình thành cộng đồng cư dân lớn, phù hợp với khách hàng ưu tiên môi trường sống xanh, tiện ích đồng bộ và hạ tầng dịch vụ sẵn có.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Ecopark là khu đô thị sinh thái quy mô lớn, phát triển theo nhiều giai đoạn với hệ thống công viên, hồ nước, trường học, thương mại, y tế, thể thao và các khu dân cư thấp tầng - cao tầng.</p>\n      <p>Nhóm sản phẩm gồm căn hộ, biệt thự, nhà phố, shophouse, penthouse và các sản phẩm thương mại - dịch vụ tùy từng phân khu.</p>\n\n      <h2>Thông tin sản phẩm</h2>\n      <p>Nhà phố Ecopark phù hợp với khách hàng muốn mua để ở, khai thác cho thuê hoặc tích lũy tài sản trong một đô thị đã vận hành ổn định.</p>\n      <p>Nhà phố Ecopark phù hợp với khách hàng muốn tài sản thấp tầng trong khu đô thị có cộng đồng cư dân, tiện ích đã hoạt động và khả năng sử dụng linh hoạt.</p>\n\n      <h2>Lưu ý tư vấn</h2>\n      <p>Cần kiểm tra từng phân khu, tình trạng bàn giao, phí vận hành, pháp lý căn/lô, mặt tiền khai thác và dòng tiền cho thuê thực tế trước khi chốt phương án.</p>",
     "cta": {
-      "title": "Nhận tư vấn chi tiết về Nhà phố Ecopark",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "title": "Nhận tư vấn chi tiết về nhà phố Ecopark",
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -1265,14 +1340,14 @@
     "type": "Thương mại",
     "name": "Shophouse Sunshine Legend City",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/sunshine-legend-city-thaptang.jpg",
-    "meta": "Shophouse và tuyến phố thương mại view sông",
+    "meta": "Shophouse thương mại Sunshine Legend City",
     "title": "Shophouse Sunshine Legend City | Hồng Nhung BĐS",
-    "description": "Shophouse Sunshine Legend City tại Văn Giang, Hưng Yên. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Shophouse Sunshine Legend City: cập nhật vị trí, tiềm năng kinh doanh, phân khu thương mại, tiện ích và tư vấn bảng hàng mới nhất.",
     "hero": {
       "image": "assets/img/sunshine-legend-city-thaptang.jpg",
       "eyebrow": "Thương mại",
@@ -1297,56 +1372,61 @@
       },
       {
         "label": "Tổng diện tích dự án",
-        "value": "54 ha",
+        "value": "Khoảng 54 ha",
         "muted": false
       },
       {
         "label": "Quy mô",
-        "value": "665 sản phẩm thấp tầng; Wonder Island & Riviera",
+        "value": "Shophouse, nhà phố, biệt thự và căn hộ cao cấp",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "Đang cập nhật",
+        "value": "Cập nhật theo từng phân khu",
         "muted": true
       },
       {
         "label": "Dự kiến bàn giao",
-        "value": "Đang cập nhật",
+        "value": "Cập nhật theo từng sản phẩm",
         "muted": true
+      },
+      {
+        "label": "Pháp lý",
+        "value": "Kiểm tra theo từng sản phẩm và chính sách bán hàng",
+        "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin sản phẩm & Báo giá",
+      "heading": "Thông tin shophouse & Báo giá",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Loại sản phẩm",
+          "value": "Shophouse",
+          "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Vị trí ưu tiên",
+          "value": "Trục thương mại, gần quảng trường và tiện ích",
+          "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Lợi thế",
+          "value": "Kinh doanh, cho thuê, giữ tài sản",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Cần kiểm tra",
+          "value": "Mặt tiền, dòng khách, quy hoạch tuyến phố",
+          "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Shophouse Sunshine Legend City</strong> tọa lạc tại <strong>Văn Giang, Hưng Yên</strong>. Dự án nằm tại điểm giao thoa phía Đông - Đông Nam Thủ đô, kết nối Ecopark, Vinhomes Ocean Park 1, 2, 3 và Alluvia.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Theo tài liệu đào tạo, Legend City có quy mô khoảng 54 ha, gồm ba phân khu Wonder Island, Legend và Riviera; sản phẩm gồm căn hộ cao cấp, thấp tầng xây thô hoàn thiện mặt ngoài, biệt thự, nhà phố và shophouse.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Shophouse/Boutique House được định hướng vừa ở vừa kinh doanh, gắn với tuyến phố thương mại, lifestyle và ẩm thực cao cấp.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Sunshine Legend City</strong> nằm tại Văn Giang, Hưng Yên, trong vùng giao thoa phía Đông - Đông Nam Hà Nội. Khu vực này hưởng lợi từ trục kết nối Ecopark, Vinhomes Ocean Park 1, 2, 3, Alluvia City và các tuyến cầu, vành đai đang hoàn thiện.</p>\n      <p>Với khách hàng ở Hà Nội, lợi thế lớn của dự án là bán kính di chuyển thuận tiện về trung tâm qua các hướng Thanh Trì, Vĩnh Tuy, Mễ Sở, Ngọc Hồi và các trục kết nối sang Gia Lâm - Long Biên.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Theo tài liệu dự án, Sunshine Legend City có quy mô khoảng <strong>54 ha</strong>, phát triển theo mô hình đô thị đa chức năng với ba phân khu chính: Wonder Island, Legend và Riviera.</p>\n      <p>Nhóm sản phẩm Shophouse Sunshine Legend City nằm trong hệ sinh thái gồm căn hộ cao cấp, tháp thương mại - dịch vụ, văn phòng, biệt thự, nhà phố và shophouse. Shophouse cần được đánh giá kỹ theo mặt tiền, vị trí góc, dòng cư dân, khoảng cách tới tiện ích và khả năng vận hành thương mại thực tế trong từng giai đoạn.</p>\n\n      <h2>Tiện ích và điểm nổi bật</h2>\n      <p>Dự án nhấn mạnh trải nghiệm sống ven sông, cảnh quan mặt nước, phố thương mại, trường học, trung tâm dịch vụ, sky garden, sky pool, sky bar, khu thể thao và các tiện ích giải trí ngoài trời.</p>\n      <p>Khi tư vấn, nên kiểm tra cụ thể từng tòa, từng phân khu, hướng nhìn, khoảng cách đến tiện ích, chính sách bán hàng và tiến độ pháp lý tại thời điểm khách quan tâm.</p>\n\n      <h2>Lưu ý tư vấn</h2>\n      <p>Các thông tin về giá, lịch bàn giao, pháp lý và mặt bằng căn cần đối chiếu theo bảng hàng mới nhất. Hồng Nhung BĐS có thể hỗ trợ lọc giỏ hàng theo ngân sách, mục tiêu ở thật hoặc đầu tư.</p>",
     "cta": {
-      "title": "Nhận tư vấn chi tiết về Shophouse Sunshine Legend City",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "title": "Nhận tư vấn chi tiết về shophouse Sunshine Legend City",
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -1355,14 +1435,14 @@
     "type": "Thương mại",
     "name": "Shophouse Alluvia City",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "20 - 32,8 tỷ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 120,
     "img": "assets/img/alluvia-city-thaptang.jpg",
-    "meta": "Shophouse 120 m2",
+    "meta": "Shophouse Alluvia City",
     "title": "Shophouse Alluvia City | Hồng Nhung BĐS",
-    "description": "Shophouse Alluvia City tại Văn Giang, Hưng Yên. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Shophouse Alluvia City: thông tin vị trí, quy mô dự án, trục thương mại, giá tham khảo và phương án khai thác kinh doanh.",
     "hero": {
       "image": "assets/img/alluvia-city-thaptang.jpg",
       "eyebrow": "Thương mại",
@@ -1382,7 +1462,7 @@
       },
       {
         "label": "Chủ đầu tư",
-        "value": "Công ty Cổ phần Xuân Cầu Holdings",
+        "value": "Xuân Cầu Holdings",
         "muted": false
       },
       {
@@ -1392,51 +1472,56 @@
       },
       {
         "label": "Quy mô",
-        "value": "Shophouse trong các phân khu Alluvia Onsen, Island, Yacht",
+        "value": "Shophouse, nhà phố, biệt thự và căn hộ cao tầng",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "16%",
+        "value": "Khoảng 16%",
         "muted": false
       },
       {
         "label": "Dự kiến bàn giao",
-        "value": "Dự kiến 2027 - 2032",
+        "value": "2027 - 2032 theo từng phân khu",
+        "muted": false
+      },
+      {
+        "label": "Pháp lý",
+        "value": "Sở hữu lâu dài/không thời hạn theo từng sản phẩm",
         "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin sản phẩm & Báo giá",
+      "heading": "Thông tin shophouse & Báo giá",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "120 m2",
+          "label": "Loại sản phẩm",
+          "value": "Shophouse thấp tầng",
           "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Diện tích tham khảo",
+          "value": "Khoảng 120 m2",
+          "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Giá tham khảo tài liệu",
+          "value": "Khoảng 20 - 32,8 tỷ",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đủ điều kiện ký HĐMB 11/2025",
+          "label": "Cần kiểm tra",
+          "value": "Mặt tiền, vị trí góc, dòng khách nội khu",
           "muted": false
         }
       ],
       "priceLabel": "Giá",
-      "priceValue": "20 - 32,8 tỷ"
+      "priceValue": "Từ khoảng 20 tỷ theo tài liệu"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Shophouse Alluvia City</strong> tọa lạc tại <strong>Văn Giang, Hưng Yên</strong>. Dự án nằm trong khu vực phát triển phía Đông Hà Nội, có định hướng đô thị sinh thái khoáng nóng bên sông Hồng.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Alluvia City có tổng diện tích 198,3 ha, mật độ xây dựng 16%, gồm Alluvia Onsen, Alluvia Island, Alluvia Yacht và Alluvia Sunshine Marina; quy mô 2.718 căn thấp tầng và 12.133 căn hộ chung cư.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Shophouse là dòng liền kề thương mại, tích hợp công năng ở và kinh doanh, diện tích tham khảo 120 m2.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Alluvia City</strong> tọa lạc tại Văn Giang, Hưng Yên, kế cận các đô thị lớn phía Đông Hà Nội như Ecopark, Vinhomes Ocean Park và Sunshine Legend City.</p>\n      <p>Theo tài liệu dự án, từ Alluvia City có thể kết nối nhanh tới Ecopark, Vinhomes Ocean Park, Vành đai 2, trung tâm Hà Nội và sân bay Nội Bài qua hệ thống trục giao thông khu Đông.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Alluvia City có quy mô khoảng <strong>198,3 ha</strong>, mật độ xây dựng tham khảo khoảng 16%, được phát triển theo mô hình đô thị khoáng nóng và sinh thái ven sông.</p>\n      <p>Dự án được chia thành các phân khu như Alluvia Onsen, Alluvia Island, Alluvia Yacht và Alluvia Sunshine Marina. Cơ cấu sản phẩm gồm biệt thự, nhà phố, shophouse và căn hộ cao tầng.</p>\n\n      <h2>Thông tin sản phẩm</h2>\n      <p>Shophouse Alluvia City phù hợp với khách hàng muốn khai thác lợi thế đô thị mới có quy mô lớn, nhiều không gian xanh, tiện ích khoáng nóng và khả năng kết nối với cụm đô thị Văn Giang - Gia Lâm.</p>\n      <p>Shophouse cần được so sánh theo trục thương mại, mật độ cư dân, khả năng cho thuê, mặt tiền và tiến độ hình thành tiện ích trong từng phân khu.</p>\n\n      <h2>Lưu ý khi chọn sản phẩm</h2>\n      <p>Cần kiểm tra vị trí lô/căn, mặt đường, khoảng cách tới tiện ích, thời điểm bàn giao, điều kiện thanh toán và biên độ giá giữa các phân khu trước khi đặt cọc.</p>",
     "cta": {
-      "title": "Nhận tư vấn chi tiết về Shophouse Alluvia City",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "title": "Nhận tư vấn chi tiết về shophouse Alluvia City",
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -1445,14 +1530,14 @@
     "type": "Thương mại",
     "name": "Shophouse Vinhomes Ocean City",
     "addr": "Gia Lâm, Hà Nội",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/vinhomes-ocean-city.jpg",
-    "meta": "Shophouse trong các phân khu thấp tầng",
+    "meta": "Shophouse Vinhomes Ocean Park",
     "title": "Shophouse Vinhomes Ocean City | Hồng Nhung BĐS",
-    "description": "Shophouse Vinhomes Ocean City tại Gia Lâm, Hà Nội. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Shophouse Vinhomes Ocean City: thông tin vị trí, dòng cư dân, tiện ích đại đô thị và khả năng khai thác thương mại.",
     "hero": {
       "image": "assets/img/vinhomes-ocean-city.jpg",
       "eyebrow": "Thương mại",
@@ -1477,56 +1562,61 @@
       },
       {
         "label": "Tổng diện tích dự án",
-        "value": "420 ha",
+        "value": "Khoảng 420 ha",
         "muted": false
       },
       {
         "label": "Quy mô",
-        "value": "66 tòa căn hộ; 2.395 căn thấp tầng",
+        "value": "Shophouse và sản phẩm thương mại thấp tầng",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "19%",
+        "value": "Khoảng 19%",
         "muted": false
       },
       {
         "label": "Dự kiến bàn giao",
-        "value": "Đã bàn giao từng phần",
+        "value": "Theo từng phân khu",
+        "muted": false
+      },
+      {
+        "label": "Pháp lý",
+        "value": "Kiểm tra theo từng sản phẩm",
         "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin sản phẩm & Báo giá",
+      "heading": "Thông tin shophouse & Báo giá",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Loại sản phẩm",
+          "value": "Shophouse",
+          "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Lợi thế",
+          "value": "Khai thác thương mại, cho thuê, giữ tài sản",
+          "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Nguồn khách",
+          "value": "Cư dân nội khu và khách tiện ích",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Cần kiểm tra",
+          "value": "Mặt tiền, vị trí góc, tuyến phố",
+          "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Shophouse Vinhomes Ocean City</strong> tọa lạc tại <strong>Gia Lâm, Hà Nội</strong>. Đại đô thị nằm giữa quốc lộ 5A và 5B, thuộc Dương Xá, Kiêu Kỵ, Đa Tốn và một phần Trâu Quỳ, kết nối thuận tiện về trung tâm Hà Nội.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Vinhomes Ocean Park có quy mô 420 ha, mật độ xây dựng khoảng 19%, hơn 117 ha cây xanh và mặt nước; quy hoạch khoảng 90.000 cư dân, 66 tòa căn hộ và 2.395 căn thấp tầng.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Shophouse tập trung tại các phân khu thấp tầng, đặc biệt khu Ngọc Trai với vị trí trung tâm và hệ kênh đào cảnh quan.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Vinhomes Ocean Park</strong> nằm tại Gia Lâm, Hà Nội, thuộc trục phát triển phía Đông Thủ đô, kết nối Long Biên, trung tâm Hà Nội, Hưng Yên và Hải Phòng.</p>\n      <p>Dự án hưởng lợi từ hệ thống cầu, quốc lộ, cao tốc và các tuyến vành đai, phù hợp với khách hàng cần môi trường sống đồng bộ nhưng vẫn kết nối được khu trung tâm.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Vinhomes Ocean Park có quy mô khoảng <strong>420 ha</strong>, nổi bật với biển hồ nước mặn 6,1 ha, hồ trung tâm 24,5 ha, hệ tiện ích VinUni, Vinschool, Vincom Mega Mall, khu BBQ, thể thao và cảnh quan nội khu.</p>\n      <p>Nhóm thấp tầng của dự án gồm các phân khu như Ngọc Trai, Hải Âu, San Hô và Sao Biển; bên cạnh đó là các cụm căn hộ cao tầng phục vụ nhu cầu ở thật và cho thuê.</p>\n\n      <h2>Thông tin sản phẩm</h2>\n      <p>Shophouse Vinhomes Ocean City phù hợp với khách hàng muốn sở hữu bất động sản trong một đại đô thị đã hình thành cộng đồng cư dân, có tiện ích vận hành thực tế và khả năng khai thác cho thuê.</p>\n      <p>Shophouse cần được đánh giá theo vị trí thương mại, dòng cư dân thực tế, khả năng đỗ xe, ngành nghề phù hợp và hiệu quả cho thuê dự kiến.</p>\n\n      <h2>Lưu ý tư vấn</h2>\n      <p>Nên so sánh giá theo phân khu, hướng nhà, khoảng cách đến hồ, trường học, trung tâm thương mại và tình trạng hoàn thiện trước khi ra quyết định.</p>",
     "cta": {
-      "title": "Nhận tư vấn chi tiết về Shophouse Vinhomes Ocean City",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "title": "Nhận tư vấn chi tiết về shophouse Vinhomes Ocean City",
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -1535,14 +1625,14 @@
     "type": "Thương mại",
     "name": "Shophouse Ecopark",
     "addr": "Văn Giang, Hưng Yên",
-    "price": "Liên hệ",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/ecopark-thaptang.jpg",
-    "meta": "Shophouse và shop villa Ecopark",
+    "meta": "Shophouse thương mại Ecopark",
     "title": "Shophouse Ecopark | Hồng Nhung BĐS",
-    "description": "Shophouse Ecopark tại Văn Giang, Hưng Yên. Cập nhật thông tin vị trí, quy mô, loại hình sản phẩm và tư vấn bởi Hồng Nhung BĐS.",
+    "description": "Shophouse Ecopark: thông tin vị trí, lợi thế thương mại, dòng cư dân, khả năng cho thuê và lưu ý chọn căn.",
     "hero": {
       "image": "assets/img/ecopark-thaptang.jpg",
       "eyebrow": "Thương mại",
@@ -1562,61 +1652,66 @@
       },
       {
         "label": "Chủ đầu tư",
-        "value": "Công ty Cổ phần Tập đoàn Ecopark",
+        "value": "Ecopark / VIHAJICO",
         "muted": false
       },
       {
         "label": "Tổng diện tích dự án",
-        "value": "500 ha",
+        "value": "Khoảng 500 ha",
         "muted": false
       },
       {
         "label": "Quy mô",
-        "value": "6 phân khu chính; 9 giai đoạn phát triển",
+        "value": "Shophouse, phố thương mại và sản phẩm dịch vụ",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "Đang cập nhật",
-        "muted": true
+        "value": "Ưu tiên không gian xanh và mặt nước",
+        "muted": false
       },
       {
         "label": "Dự kiến bàn giao",
-        "value": "Phát triển từ 2008; nhiều phân khu đã vận hành",
+        "value": "Theo từng phân khu",
+        "muted": false
+      },
+      {
+        "label": "Pháp lý",
+        "value": "Kiểm tra theo từng sản phẩm",
         "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin sản phẩm & Báo giá",
+      "heading": "Thông tin shophouse & Báo giá",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Loại sản phẩm",
+          "value": "Shophouse",
+          "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Lợi thế",
+          "value": "Dòng cư dân sẵn có, tiện ích vận hành",
+          "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Cần kiểm tra",
+          "value": "Mặt tiền, vị trí góc, ngành nghề khai thác",
+          "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Đang cập nhật",
-          "muted": true
+          "label": "Phù hợp",
+          "value": "Kinh doanh, cho thuê, tích sản",
+          "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Shophouse Ecopark</strong> tọa lạc tại <strong>Văn Giang, Hưng Yên</strong>. Khu đô thị trải dài theo sông Bắc Hưng Hải, thuộc Văn Giang, Hưng Yên và kết nối nhanh về trung tâm Hà Nội.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Ecopark có quy mô 500 ha, gồm nhiều phân khu phát triển theo giai đoạn như Rừng Cọ, Aquabay, Giáo dục, Quận Đảo, Sân golf và Sáng tạo; pháp lý sở hữu lâu dài.</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Shophouse/shop villa phục vụ nhu cầu thương mại, dịch vụ, mua sắm và khai thác dòng khách trong khu đô thị sinh thái.</p>",
+    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Ecopark</strong> nằm tại Văn Giang, Hưng Yên, giáp khu Đông Hà Nội, kết nối thuận tiện tới Long Biên, Gia Lâm, trung tâm Hà Nội và các đô thị vệ tinh lân cận.</p>\n      <p>Dự án đã hình thành cộng đồng cư dân lớn, phù hợp với khách hàng ưu tiên môi trường sống xanh, tiện ích đồng bộ và hạ tầng dịch vụ sẵn có.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Ecopark là khu đô thị sinh thái quy mô lớn, phát triển theo nhiều giai đoạn với hệ thống công viên, hồ nước, trường học, thương mại, y tế, thể thao và các khu dân cư thấp tầng - cao tầng.</p>\n      <p>Nhóm sản phẩm gồm căn hộ, biệt thự, nhà phố, shophouse, penthouse và các sản phẩm thương mại - dịch vụ tùy từng phân khu.</p>\n\n      <h2>Thông tin sản phẩm</h2>\n      <p>Shophouse Ecopark phù hợp với khách hàng muốn mua để ở, khai thác cho thuê hoặc tích lũy tài sản trong một đô thị đã vận hành ổn định.</p>\n      <p>Shophouse Ecopark cần được đánh giá theo dòng khách thực tế, ngành nghề phù hợp, mặt tiền, chỗ đỗ xe và tính thanh khoản của từng phân khu.</p>\n\n      <h2>Lưu ý tư vấn</h2>\n      <p>Cần kiểm tra từng phân khu, tình trạng bàn giao, phí vận hành, pháp lý căn/lô, mặt tiền khai thác và dòng tiền cho thuê thực tế trước khi chốt phương án.</p>",
     "cta": {
-      "title": "Nhận tư vấn chi tiết về Shophouse Ecopark",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "title": "Nhận tư vấn chi tiết về shophouse Ecopark",
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -1624,15 +1719,15 @@
     "slug": "dat-nen-hung-yen",
     "type": "Đất nền",
     "name": "Đất nền Tỉnh Hưng Yên",
-    "addr": "Văn Giang · Văn Lâm · Khoái Châu · Yên Mỹ",
-    "price": "Liên hệ",
+    "addr": "Hưng Yên",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/dat-nen-hung-yen.jpg",
-    "meta": "Đất nền pháp lý đầy đủ — nhiều diện tích & vị trí",
+    "meta": "Tư vấn đất nền khu vực Hưng Yên",
     "title": "Đất nền Tỉnh Hưng Yên | Hồng Nhung BĐS",
-    "description": "Đất nền Tỉnh Hưng Yên — đang cập nhật thông tin chi tiết. Liên hệ Hồng Nhung BĐS để nhận tư vấn.",
+    "description": "Đất nền Hưng Yên: tư vấn kiểm tra vị trí, quy hoạch, pháp lý, hạ tầng, khả năng tăng trưởng và phương án đầu tư an toàn.",
     "hero": {
       "image": "assets/img/dat-nen-hung-yen.jpg",
       "eyebrow": "Đất nền",
@@ -1646,67 +1741,62 @@
         "muted": false
       },
       {
-        "label": "Vị trí",
-        "value": "Văn Giang, Văn Lâm, Khoái Châu, Yên Mỹ",
+        "label": "Khu vực",
+        "value": "Hưng Yên",
         "muted": false
       },
       {
-        "label": "Chủ đầu tư",
-        "value": "Theo từng tài sản",
+        "label": "Pháp lý cần kiểm tra",
+        "value": "Sổ đỏ, quy hoạch, lộ giới, tranh chấp",
         "muted": false
       },
       {
-        "label": "Tổng diện tích dự án",
-        "value": "Theo từng tài sản",
+        "label": "Động lực khu vực",
+        "value": "Hạ tầng Đông Hà Nội, đô thị Văn Giang - Gia Lâm",
         "muted": false
       },
       {
-        "label": "Quy mô",
-        "value": "Theo từng lô/khu vực",
+        "label": "Phù hợp",
+        "value": "Tích sản, đầu tư trung dài hạn",
         "muted": false
       },
       {
-        "label": "Mật độ xây dựng",
-        "value": "Không áp dụng",
-        "muted": false
-      },
-      {
-        "label": "Dự kiến bàn giao",
-        "value": "Theo giao dịch thực tế",
+        "label": "Rủi ro cần tránh",
+        "value": "Tin đồn quy hoạch, đất chưa rõ pháp lý",
         "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin tư vấn & Báo giá",
+      "heading": "Thông tin tư vấn đất nền",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "Theo từng tài sản",
+          "label": "Hồ sơ cần có",
+          "value": "Sổ đỏ, trích lục, quy hoạch, hiện trạng đường",
           "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Không áp dụng",
+          "label": "Cần kiểm tra",
+          "value": "Mốc giới, mục đích sử dụng, tranh chấp",
           "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Không áp dụng",
+          "label": "Phù hợp",
+          "value": "Nhà đầu tư có khẩu vị trung dài hạn",
           "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Theo pháp lý hồ sơ",
+          "label": "Dịch vụ",
+          "value": "Lọc vị trí, kiểm tra pháp lý, so sánh giá",
           "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Đất nền Tỉnh Hưng Yên</strong> tọa lạc tại <strong>Văn Giang, Văn Lâm, Khoái Châu, Yên Mỹ</strong>. Hồng Nhung BĐS tiếp nhận nhu cầu, kiểm tra hồ sơ và tư vấn phương án giao dịch phù hợp.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Tư vấn đất nền pháp lý đầy đủ, nhiều diện tích và vị trí</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Các thông tin diện tích, giá, pháp lý và tiến độ sẽ được xác nhận theo từng hồ sơ thực tế trước khi tư vấn khách hàng.</p>",
+    "contentHtml": "<h2>Tổng quan khu vực</h2>\n      <p><strong>Đất nền Hưng Yên</strong> hưởng lợi từ quá trình mở rộng đô thị phía Đông Hà Nội, các trục kết nối Gia Lâm - Văn Giang - Khoái Châu và sự xuất hiện của nhiều đại đô thị mới.</p>\n      <p>Nhóm khách hàng phù hợp thường là người muốn tích sản trung dài hạn, ưu tiên pháp lý rõ ràng, vị trí có hạ tầng thật và thanh khoản thực tế.</p>\n\n      <h2>Tiêu chí chọn đất</h2>\n      <p>Nên ưu tiên đất có sổ đỏ, đường hiện hữu, ranh giới rõ, không tranh chấp, không vướng quy hoạch treo và có thể kiểm tra được giao dịch so sánh trong khu vực.</p>\n      <p>Không nên quyết định chỉ dựa trên tin đồn quy hoạch. Cần kiểm tra bản đồ quy hoạch, hiện trạng sử dụng đất, khoảng cách tới đường lớn, khu dân cư và tiện ích thật.</p>\n\n      <h2>Hồng Nhung BĐS hỗ trợ</h2>\n      <p>Hỗ trợ lọc sản phẩm theo ngân sách, kiểm tra pháp lý ban đầu, so sánh mặt bằng giá, đánh giá thanh khoản và chuẩn bị câu hỏi cần xác minh trước khi đặt cọc.</p>",
     "cta": {
-      "title": "Nhận tư vấn chi tiết về Đất nền Tỉnh Hưng Yên",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "title": "Nhận tư vấn chi tiết về đất nền Hưng Yên",
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -1714,15 +1804,15 @@
     "slug": "dat-nen-phia-dong-ha-noi",
     "type": "Đất nền",
     "name": "Đất nền Khu vực phía Đông Hà Nội",
-    "addr": "Gia Lâm · Long Biên · Đông Anh · Văn Giang giáp ranh",
-    "price": "Liên hệ",
+    "addr": "Phía Đông Hà Nội",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/dat-nen-hung-yen.jpg",
-    "meta": "Đất nền dân cư & dự án — đa dạng diện tích",
+    "meta": "Tư vấn đất nền phía Đông Hà Nội",
     "title": "Đất nền Khu vực phía Đông Hà Nội | Hồng Nhung BĐS",
-    "description": "Đất nền Khu vực phía Đông Hà Nội — đang cập nhật thông tin chi tiết. Liên hệ Hồng Nhung BĐS để nhận tư vấn.",
+    "description": "Đất nền phía Đông Hà Nội: tư vấn kiểm tra quy hoạch, pháp lý, hạ tầng, tiềm năng tăng trưởng và rủi ro trước khi mua.",
     "hero": {
       "image": "assets/img/dat-nen-hung-yen.jpg",
       "eyebrow": "Đất nền",
@@ -1736,67 +1826,62 @@
         "muted": false
       },
       {
-        "label": "Vị trí",
-        "value": "Gia Lâm, Long Biên, Đông Anh, Văn Giang giáp ranh",
+        "label": "Khu vực",
+        "value": "Long Biên, Gia Lâm, Văn Giang và vùng lân cận",
         "muted": false
       },
       {
-        "label": "Chủ đầu tư",
-        "value": "Theo từng tài sản",
+        "label": "Động lực",
+        "value": "Cầu, vành đai, cao tốc, đại đô thị phía Đông",
         "muted": false
       },
       {
-        "label": "Tổng diện tích dự án",
-        "value": "Theo từng tài sản",
+        "label": "Pháp lý cần kiểm tra",
+        "value": "Sổ đỏ, quy hoạch, lộ giới, tranh chấp",
         "muted": false
       },
       {
-        "label": "Quy mô",
-        "value": "Theo từng lô/khu vực",
+        "label": "Phù hợp",
+        "value": "Tích sản, đầu tư trung dài hạn",
         "muted": false
       },
       {
-        "label": "Mật độ xây dựng",
-        "value": "Không áp dụng",
-        "muted": false
-      },
-      {
-        "label": "Dự kiến bàn giao",
-        "value": "Theo giao dịch thực tế",
+        "label": "Cần tránh",
+        "value": "Mua theo tin đồn, pháp lý chưa rõ",
         "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin tư vấn & Báo giá",
+      "heading": "Thông tin tư vấn đất nền",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "Theo từng tài sản",
+          "label": "Khu vực lọc hàng",
+          "value": "Long Biên, Gia Lâm, Văn Giang, Hưng Yên",
           "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Không áp dụng",
+          "label": "Hồ sơ cần kiểm tra",
+          "value": "Sổ đỏ, quy hoạch, hiện trạng đường",
           "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Không áp dụng",
+          "label": "Phương án",
+          "value": "So sánh giá và thanh khoản từng vị trí",
           "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Theo pháp lý hồ sơ",
+          "label": "Dịch vụ",
+          "value": "Tư vấn trước đặt cọc",
           "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Đất nền Khu vực phía Đông Hà Nội</strong> tọa lạc tại <strong>Gia Lâm, Long Biên, Đông Anh, Văn Giang giáp ranh</strong>. Hồng Nhung BĐS tiếp nhận nhu cầu, kiểm tra hồ sơ và tư vấn phương án giao dịch phù hợp.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Tư vấn đất nền dân cư và dự án khu Đông Hà Nội</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Các thông tin diện tích, giá, pháp lý và tiến độ sẽ được xác nhận theo từng hồ sơ thực tế trước khi tư vấn khách hàng.</p>",
+    "contentHtml": "<h2>Tổng quan khu Đông</h2>\n      <p>Khu vực phía Đông Hà Nội đang được quan tâm nhờ hạ tầng cầu, đường vành đai, cao tốc, các đại đô thị và dòng dịch chuyển dân cư sang Long Biên, Gia Lâm, Văn Giang.</p>\n      <p>Đất nền trong khu vực này cần được đánh giá bằng dữ liệu thật: pháp lý, đường hiện hữu, dân cư xung quanh, tiện ích, giao dịch so sánh và kế hoạch phát triển hạ tầng.</p>\n\n      <h2>Cách kiểm tra trước khi mua</h2>\n      <p>Người mua nên xác minh sổ đỏ, mục đích sử dụng đất, quy hoạch, lộ giới, mốc giới thực địa, tranh chấp và điều kiện chuyển nhượng trước khi đặt cọc.</p>\n      <p>Với các vị trí ăn theo thông tin hạ tầng, cần tách rõ yếu tố kỳ vọng và yếu tố đã hiện hữu để tránh mua vượt giá trị thực.</p>\n\n      <h2>Hỗ trợ tư vấn</h2>\n      <p>Hồng Nhung BĐS hỗ trợ lọc vị trí theo ngân sách, phân tích ưu - nhược điểm, kiểm tra hồ sơ ban đầu và xây dựng danh sách câu hỏi cần xác minh với bên bán.</p>",
     "cta": {
-      "title": "Nhận tư vấn chi tiết về Đất nền Khu vực phía Đông Hà Nội",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "title": "Nhận tư vấn chi tiết về đất nền phía Đông Hà Nội",
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   },
   {
@@ -1804,15 +1889,15 @@
     "slug": "chuyen-nhuong",
     "type": "Chuyển nhượng",
     "name": "Dịch vụ chuyển nhượng BĐS",
-    "addr": "Hà Nội · Hưng Yên · Hải Phòng · Quảng Ninh · Bắc Ninh",
-    "price": "Liên hệ",
+    "addr": "Hà Nội - Hưng Yên",
+    "price": "Liên hệ Hotline",
     "beds": 0,
     "baths": 0,
     "area": 0,
     "img": "assets/img/chuyen-nhuong-bds.jpg",
-    "meta": "Tư vấn chuyển nhượng · định giá · kết nối khách mua – khách bán",
+    "meta": "Dịch vụ hỗ trợ chuyển nhượng bất động sản",
     "title": "Dịch vụ chuyển nhượng BĐS | Hồng Nhung BĐS",
-    "description": "Dịch vụ chuyển nhượng BĐS — đang cập nhật thông tin chi tiết. Liên hệ Hồng Nhung BĐS để nhận tư vấn.",
+    "description": "Dịch vụ chuyển nhượng BĐS: hỗ trợ định giá, chuẩn bị hồ sơ, lọc khách mua, kiểm tra pháp lý và đồng hành giao dịch.",
     "hero": {
       "image": "assets/img/chuyen-nhuong-bds.jpg",
       "eyebrow": "Chuyển nhượng",
@@ -1822,71 +1907,66 @@
     "specs": [
       {
         "label": "Loại hình",
-        "value": "Chuyển nhượng",
+        "value": "Dịch vụ chuyển nhượng",
         "muted": false
       },
       {
-        "label": "Vị trí",
-        "value": "Hà Nội, Hưng Yên, Hải Phòng, Quảng Ninh, Bắc Ninh",
+        "label": "Khu vực",
+        "value": "Hà Nội, Hưng Yên và các dự án phía Đông",
         "muted": false
       },
       {
-        "label": "Chủ đầu tư",
-        "value": "Theo từng tài sản",
+        "label": "Hỗ trợ",
+        "value": "Định giá, truyền thông, lọc khách, hồ sơ",
         "muted": false
       },
       {
-        "label": "Tổng diện tích dự án",
-        "value": "Theo từng tài sản",
+        "label": "Pháp lý",
+        "value": "Kiểm tra giấy tờ và điều kiện chuyển nhượng",
         "muted": false
       },
       {
-        "label": "Quy mô",
-        "value": "Theo từng tài sản",
+        "label": "Phù hợp",
+        "value": "Chủ nhà cần bán, nhà đầu tư cần cơ cấu tài sản",
         "muted": false
       },
       {
-        "label": "Mật độ xây dựng",
-        "value": "Không áp dụng",
-        "muted": false
-      },
-      {
-        "label": "Dự kiến bàn giao",
-        "value": "Theo giao dịch thực tế",
+        "label": "Cam kết",
+        "value": "Minh bạch thông tin, bảo mật dữ liệu khách hàng",
         "muted": false
       }
     ],
     "contactBox": {
-      "heading": "Thông tin tư vấn & Báo giá",
+      "heading": "Thông tin dịch vụ",
       "items": [
         {
-          "label": "Diện tích",
-          "value": "Theo từng tài sản",
+          "label": "Đối tượng",
+          "value": "Chủ nhà, nhà đầu tư, khách cần bán nhanh",
           "muted": false
         },
         {
-          "label": "Số phòng ngủ",
-          "value": "Không áp dụng",
+          "label": "Hồ sơ cần chuẩn bị",
+          "value": "Sổ đỏ/hợp đồng mua bán, CCCD, thông tin tài sản",
           "muted": false
         },
         {
-          "label": "Số phòng VS",
-          "value": "Không áp dụng",
+          "label": "Quy trình",
+          "value": "Định giá, truyền thông, lọc khách, đàm phán",
           "muted": false
         },
         {
-          "label": "Dự kiến ký HĐMB",
-          "value": "Theo pháp lý hồ sơ",
+          "label": "Khu vực mạnh",
+          "value": "Hà Nội, Hưng Yên, Ecopark, Ocean City, Alluvia",
           "muted": false
         }
       ],
       "priceLabel": "Giá",
       "priceValue": "Liên hệ Hotline"
     },
-    "contentHtml": "<h2>Vị trí dự án</h2>\n      <p><strong>Dịch vụ chuyển nhượng BĐS</strong> tọa lạc tại <strong>Hà Nội, Hưng Yên, Hải Phòng, Quảng Ninh, Bắc Ninh</strong>. Hồng Nhung BĐS tiếp nhận nhu cầu, kiểm tra hồ sơ và tư vấn phương án giao dịch phù hợp.</p>\n\n      <h2>Tổng quan dự án</h2>\n      <p>Dịch vụ định giá, rà soát pháp lý và kết nối khách mua - khách bán</p>\n\n      <h2>Thông tin nổi bật</h2>\n      <p>Các thông tin diện tích, giá, pháp lý và tiến độ sẽ được xác nhận theo từng hồ sơ thực tế trước khi tư vấn khách hàng.</p>",
+    "contentHtml": "<h2>Dịch vụ chuyển nhượng</h2>\n      <p><strong>Hồng Nhung BĐS</strong> hỗ trợ khách hàng chuyển nhượng căn hộ, biệt thự, nhà phố, shophouse và đất nền tại Hà Nội, Hưng Yên và các dự án phía Đông.</p>\n      <p>Mục tiêu là giúp chủ nhà định vị giá bán hợp lý, chuẩn bị hồ sơ rõ ràng, tiếp cận đúng nhóm khách mua và giảm rủi ro trong quá trình đặt cọc - công chứng - bàn giao.</p>\n\n      <h2>Quy trình làm việc</h2>\n      <p>Quy trình gồm khảo sát tài sản, kiểm tra hồ sơ pháp lý ban đầu, so sánh giá thị trường, xây dựng nội dung truyền thông, lọc khách mua, hỗ trợ đàm phán và theo sát giao dịch.</p>\n      <p>Với tài sản trong dự án, cần kiểm tra điều kiện chuyển nhượng, phí, thuế, tiến độ thanh toán, tình trạng vay ngân hàng và các cam kết trong hợp đồng mua bán.</p>\n\n      <h2>Lợi ích cho khách hàng</h2>\n      <p>Khách hàng được tư vấn phương án giá, cách chuẩn bị hồ sơ, điểm mạnh - điểm yếu của tài sản và chiến lược tiếp cận người mua phù hợp thay vì đăng tin dàn trải.</p>",
     "cta": {
-      "title": "Nhận tư vấn chi tiết về Dịch vụ chuyển nhượng BĐS",
-      "text": "Vui lòng để lại thông tin hoặc gọi trực tiếp — Hồng Nhung sẽ gửi bảng giá, chính sách bán hàng, mặt bằng và lịch xem nhà phù hợp."
+      "title": "Nhận tư vấn chi tiết về dịch vụ chuyển nhượng BĐS",
+      "text": "Liên hệ Hồng Nhung BĐS để được kiểm tra giỏ hàng, chính sách bán hàng, tiến độ và phương án tài chính phù hợp trước khi quyết định."
     }
   }
 ]
