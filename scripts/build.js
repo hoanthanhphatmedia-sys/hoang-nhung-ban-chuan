@@ -181,6 +181,14 @@ function projectCard(project, prefix = "") {
       </a>`;
 }
 
+function pageHero(title, lead, prefix = "") {
+  const image = prefixPath(prefix, "assets/img/anh_dai_dien.jpg");
+  return `<section class="page-hero page-hero-cover" style="--page-hero-image:url('${escapeAttr(image)}')">
+    <h1>${escapeHtml(title)}</h1>
+    <p>${escapeHtml(lead)}</p>
+  </section>`;
+}
+
 function buildIndex() {
   const home = site.home;
   const aboutStripHtml = (home.aboutStripHtml || "").replace(/<\/section>\s*$/i, "").trim();
@@ -256,10 +264,7 @@ function buildListings() {
     .map((type) => `<option value="${escapeAttr(type)}">${escapeHtml(type === "Chuyển nhượng" ? "Chuyển nhượng BĐS" : type === "Thương mại" ? "BĐS thương mại" : type)}</option>`)
     .join("\n        ");
   const body = `
-  <section class="page-hero">
-    <h1>${escapeHtml(listings.pageTitle)}</h1>
-    <p>${escapeHtml(listings.pageLead)}</p>
-  </section>
+  ${pageHero(listings.pageTitle, listings.pageLead)}
 
   <section class="container">
     <div class="filters">
@@ -285,10 +290,7 @@ function buildListings() {
 function buildAbout() {
   const about = site.about;
   const body = `
-  <section class="page-hero">
-    <h1>${escapeHtml(about.pageTitle)}</h1>
-    <p>${escapeHtml(about.pageLead)}</p>
-  </section>
+  ${pageHero(about.pageTitle, about.pageLead)}
 
   <section class="container about-long">
     ${about.bodyHtml || ""}
@@ -326,10 +328,7 @@ function buildContact() {
         <label>KhÃ´ng Ä‘iá»n Ã´ nÃ y <input name="bot-field" /></label>
       </p>`;
   const body = `
-  <section class="page-hero">
-    <h1>${escapeHtml(contactPage.pageTitle)}</h1>
-    <p>${escapeHtml(contactPage.pageLead)}</p>
-  </section>
+  ${pageHero(contactPage.pageTitle, contactPage.pageLead)}
 
   <section class="container contact-grid">
     <form name="contact" action="${escapeAttr(formAction)}" method="POST" class="contact-form" ${formAttributes}>

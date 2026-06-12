@@ -216,9 +216,23 @@ a{color:inherit}
 /* =====================================================
    Page hero (trang phụ) — chừa khoảng cho header cố định
    ===================================================== */
-.page-hero{background:var(--bg);color:#fff;text-align:center;padding:170px 24px 80px}
+.page-hero{background:var(--bg);color:#fff;text-align:center;padding:170px 24px 80px;position:relative;overflow:hidden}
+.page-hero-cover{
+  min-height:420px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-image:
+    linear-gradient(180deg, rgba(8,20,32,.72), rgba(8,20,32,.64)),
+    var(--page-hero-image);
+  background-size:cover;
+  background-position:center 48%;
+  background-repeat:no-repeat;
+}
 .page-hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(40px,5vw,64px);margin-bottom:10px}
 .page-hero p{color:#c7ccd3}
+.page-hero-cover p{color:#f3f6f8}
 
 /* About long */
 .about-long{padding:80px 24px}
