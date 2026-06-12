@@ -66,7 +66,7 @@
         },
         {
           "label": "Số phòng ngủ",
-          "value": "1 Phòng ngủ - 3 Phòng ngủ",
+          "value": "Studio - 3PN, Duplex, Penthouse",
           "muted": true
         },
         {
@@ -246,7 +246,7 @@
         },
         {
           "label": "Số phòng ngủ",
-          "value": "Đang cập nhật",
+          "value": "Studio - 3PN, Penthouse",
           "muted": true
         },
         {
@@ -426,7 +426,7 @@
         },
         {
           "label": "Số phòng ngủ",
-          "value": "Đang cập nhật",
+          "value": "Studio - 3PN, Duplex, Penthouse",
           "muted": true
         },
         {
@@ -516,7 +516,7 @@
         },
         {
           "label": "Số phòng ngủ",
-          "value": "Đang cập nhật",
+          "value": "Studio - 3PN,",
           "muted": true
         },
         {
