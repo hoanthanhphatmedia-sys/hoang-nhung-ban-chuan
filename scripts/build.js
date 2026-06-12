@@ -4,7 +4,7 @@ const path = require("path");
 const root = path.resolve(__dirname, "..");
 const site = readJson("content/site.json");
 const projects = readJson("content/projects.json");
-const assetVersion = "20260612-cover";
+const assetVersion = "20260612-cover-photo";
 
 function readJson(relPath) {
   return JSON.parse(fs.readFileSync(path.join(root, relPath), "utf8"));
@@ -183,8 +183,9 @@ function projectCard(project, prefix = "") {
 }
 
 function pageHero(title, lead, prefix = "") {
-  const image = prefixPath(prefix, "assets/img/anh_dai_dien.jpg");
-  return `<section class="page-hero page-hero-cover" style="--page-hero-image:url('${escapeAttr(image)}')">
+  const image = prefixPath(prefix, "assets/img/anh_dai_dien-cover.jpg");
+  return `<section class="page-hero page-hero-cover">
+    <img class="page-hero-img" src="${escapeAttr(image)}" alt="" loading="eager" decoding="async" fetchpriority="high" />
     <h1>${escapeHtml(title)}</h1>
     <p>${escapeHtml(lead)}</p>
   </section>`;
