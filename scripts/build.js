@@ -4,7 +4,7 @@ const path = require("path");
 const root = path.resolve(__dirname, "..");
 const site = readJson("content/site.json");
 const projects = readJson("content/projects.json");
-const assetVersion = "20260612-cover-photo";
+const assetVersion = "20260612-hero-video";
 
 function readJson(relPath) {
   return JSON.parse(fs.readFileSync(path.join(root, relPath), "utf8"));
@@ -198,6 +198,8 @@ function buildIndex() {
     .map((slug) => projects.find((project) => project.slug === slug))
     .filter(Boolean);
   const featuredCards = [...featured, ...featured].map((project) => projectCard(project)).join("");
+  const heroVideo = home.heroVideo || "assets/video/hero.mp4";
+  const heroVideoSrc = heroVideo.includes("?") ? heroVideo : `${heroVideo}?v=${assetVersion}`;
   const netlifyDetectorForm = usesWeb3Forms() ? "" : `
   <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
     <input type="hidden" name="form-name" value="contact" />
@@ -215,7 +217,7 @@ function buildIndex() {
   const body = `
   <section class="hero">
     <video class="hero-video" autoplay muted loop playsinline preload="auto">
-      <source src="${escapeAttr(home.heroVideo || "assets/video/hero.mp4")}" type="video/mp4" />
+      <source src="${escapeAttr(heroVideoSrc)}" type="video/mp4" />
     </video>
     <div class="hero-overlay"></div>
     <div class="hero-inner">
